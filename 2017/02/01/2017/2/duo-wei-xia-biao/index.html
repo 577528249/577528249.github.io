@@ -594,21 +594,21 @@ vectors<span class="token punctuation">.</span><span class="token function">appe
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/dao-zhi-layer-hui-zhi-de-xing-neng-wen-ti/">
+                <a href="/2017/02/01/2017/2/arrayslice-shi-yong-zhu-yi-shi-xiang/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="导致layer绘制的性能问题">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ArraySlice使用注意事项">
                         
-                        <span class="card-title">导致layer绘制的性能问题</span>
+                        <span class="card-title">ArraySlice使用注意事项</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            导致layer绘制的性能问题CALayer的大部分属性都是通过GPU来绘制的。以下几类操作可能导致layer绘制的性能问题：
+                            ArraySlice使用注意事项使用ArraySlice时，需要注意两点：
 
-过多的几何形状：这里的瓶颈主要是在对layer的预处理及通过IPC发送到render server这个过程，即C
+ArraySlice会维持对原始数组的一个强引用，而不仅仅是它所表示的片断。这样即使原始数组对象的生命周期结束了，也可能无法释放。所以不建议长期存储ArraySl
                         
                     </div>
                     <div class="publish-info">
@@ -633,22 +633,21 @@ vectors<span class="token punctuation">.</span><span class="token function">appe
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/ios-dong-hua-ying-yong-nei-chu-li-de-4-ge-jie-duan/">
+                <a href="/2017/02/01/2017/2/dao-zhi-layer-hui-zhi-de-xing-neng-wen-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="iOS动画应用内处理的4个阶段">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="导致layer绘制的性能问题">
                         
-                        <span class="card-title">iOS动画应用内处理的4个阶段</span>
+                        <span class="card-title">导致layer绘制的性能问题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            iOS动画应用内处理的4个阶段在iOS中，动画的执行主要分6个阶段，其中4个阶段是在应用内部处理的：
+                            导致layer绘制的性能问题CALayer的大部分属性都是通过GPU来绘制的。以下几类操作可能导致layer绘制的性能问题：
 
-Layout: 这一阶段是准备好view/layer的层级结构并设置layer的属性；
-Display: 这一阶段将绘制layer的内容
+过多的几何形状：这里的瓶颈主要是在对layer的预处理及通过IPC发送到render server这个过程，即C
                         
                     </div>
                     <div class="publish-info">

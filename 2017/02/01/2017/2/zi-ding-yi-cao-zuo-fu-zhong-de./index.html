@@ -580,20 +580,21 @@ vector<span class="token punctuation">.</span>y
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/never-lei-xing/">
+                <a href="/2017/02/01/2017/2/cha-kan-yi-ge-dui-xiang-de-lei-xing-shi-fou-wei-optional/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Never类型">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="查看一个对象的类型是否为Optional">
                         
-                        <span class="card-title">Never类型</span>
+                        <span class="card-title">查看一个对象的类型是否为Optional</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Never类型之前有一条知识小集讲了可以用 @noreturn 用来修饰函数，以告诉编译器函数永远不返回值给调用方。如下代码是原来的fatalError的声明。
-public func fatalError(_ message: @auto
+                            查看一个对象的类型是否为Optional在Swift中，如果想在运行时判断一个对象的类型是不是可选类型，则可以使用Mirror，如下代码所示，所有的可选类型都将返回optional。
+let value: Int? = 3
+Mirror(r
                         
                     </div>
                     <div class="publish-info">
@@ -618,19 +619,21 @@ public func fatalError(_ message: @auto
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/arrayslice-de-yong-tu/">
+                <a href="/2017/02/01/2017/2/uninhabited-types/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="ArraySlice的用途">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Uninhabited Types">
                         
-                        <span class="card-title">ArraySlice的用途</span>
+                        <span class="card-title">Uninhabited Types</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ArraySlice的用途Swift提供了ArraySlice来执行数组的切片操作。类似于其它语言中的切片(如Python)，ArraySlice对象复用了原始数组的存储结构，而不是新开辟一块内存区域来将数组片断的元素拷贝过来。因此，它能让
+                            Uninhabited TypesNever是一个空枚举，即没有有效的case。所以它是一种uninhabited type，即明显没有值的类型。Swift中，以下两种情况可以看成是uninhabited type：
+
+一个枚举类型，如果没
                         
                     </div>
                     <div class="publish-info">

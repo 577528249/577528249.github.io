@@ -650,20 +650,21 @@ Color Copied Images: 高亮显示被拷贝的图片。
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/repeated-jie-gou-ti/">
+                        <a href="/2017/02/01/2017/2/ios-dong-hua-zai-xi-tong-zhong-chu-li-de-2-ge-jie-duan/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Repeated结构体">
+                                <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="iOS动画在系统中处理的2个阶段">
                                 
-                                <span class="card-title">Repeated结构体</span>
+                                <span class="card-title">iOS动画在系统中处理的2个阶段</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Repeated结构体Swift提供了一个Repeated结构体，用于表示一个所有元素都相同的集合。我们可以使用repeatElement(_:count:)函数来创建Repeated集合，如下代码所示：
-let repeatedName 
+                                    iOS动画在系统中处理的2个阶段接上一条。打包的layer和动画发送到render server后，会被反序列化成render tree。Render server将对动画的每一帧执行以下两步操作：
+
+计算所有layer属性的中间值，并设置
                                 
                             </div>
                             <div class="publish-info">
@@ -700,20 +701,22 @@ let repeatedName
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/never-lei-xing/">
+                        <a href="/2017/02/01/2017/2/ios-dong-hua-ying-yong-nei-chu-li-de-4-ge-jie-duan/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Never类型">
+                                <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="iOS动画应用内处理的4个阶段">
                                 
-                                <span class="card-title">Never类型</span>
+                                <span class="card-title">iOS动画应用内处理的4个阶段</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Never类型之前有一条知识小集讲了可以用 @noreturn 用来修饰函数，以告诉编译器函数永远不返回值给调用方。如下代码是原来的fatalError的声明。
-public func fatalError(_ message: @auto
+                                    iOS动画应用内处理的4个阶段在iOS中，动画的执行主要分6个阶段，其中4个阶段是在应用内部处理的：
+
+Layout: 这一阶段是准备好view/layer的层级结构并设置layer的属性；
+Display: 这一阶段将绘制layer的内容
                                 
                             </div>
                             <div class="publish-info">
@@ -750,23 +753,23 @@ public func fatalError(_ message: @auto
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/zi-ding-yi-cao-zuo-fu-zhong-de./">
+                        <a href="/2017/02/01/2017/2/guan-jian-zi-autoclosure/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="自定义操作符中的.">
+                                <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="关键字autoclosure">
                                 
-                                <span class="card-title">自定义操作符中的.</span>
+                                <span class="card-title">关键字autoclosure</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    自定义操作符中的.在自定义操作符时，可以以dot(.)开头，这种情况下，操作符后面还可以包含其它的dot(.)，如下代码所示：
-infix operator .+.
+                                    @autoclosureSwift中的@autoclosure还是一个很有意思的属性，它用于修饰函数中的闭包类型的参数，它主要有两个作用：
 
-struct Vector2D {
-    var x: CGFloat
+将一个表达式自动封装成一个闭包，从而简化函数/方法的调用方式，如下代码所示；
+
+var custo
                                 
                             </div>
                             <div class="publish-info">
@@ -803,19 +806,20 @@ struct Vector2D {
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/arrayslice-de-yong-tu/">
+                        <a href="/2017/02/01/2017/2/swift-zi-ding-yi-cao-zuo-fu/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="ArraySlice的用途">
+                                <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Swift自定义操作符">
                                 
-                                <span class="card-title">ArraySlice的用途</span>
+                                <span class="card-title">Swift自定义操作符</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    ArraySlice的用途Swift提供了ArraySlice来执行数组的切片操作。类似于其它语言中的切片(如Python)，ArraySlice对象复用了原始数组的存储结构，而不是新开辟一块内存区域来将数组片断的元素拷贝过来。因此，它能让
+                                    Swift自定义操作符在Swift中，自定义操作符就是简单的二步：首先在全局使用operator关键字来声明操作符，同时用prefix、infix或postfix来声明操作符的位置；然后在所需要的类/结构体中实现操作符。如下代码所示：
+po
                                 
                             </div>
                             <div class="publish-info">

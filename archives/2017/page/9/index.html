@@ -340,23 +340,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/swift-da-yin-dui-xiang-de-di-zhi/">
+                        <a href="/2017/02/01/2017/2/uninhabited-types/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Swift打印对象的地址">
+                                <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Uninhabited Types">
                                 
-                                <span class="card-title">Swift打印对象的地址</span>
+                                <span class="card-title">Uninhabited Types</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Swift打印对象的地址在Swift中，我们可以使用withUnsafePointer(to:_:)函数来获取一个变量的指针，如下代码所示：
-var x = 42
-var y = 3.14
-var z = "foo"
-var obj = N
+                                    Uninhabited TypesNever是一个空枚举，即没有有效的case。所以它是一种uninhabited type，即明显没有值的类型。Swift中，以下两种情况可以看成是uninhabited type：
+
+一个枚举类型，如果没
                                 
                             </div>
                             <div class="publish-info">
@@ -398,22 +396,22 @@ var obj = N
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/01/01/2017/1/extension-selector/">
+                        <a href="/2017/01/01/2017/1/array.contains-cao-zuo/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Extension-Selector">
+                                <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Array.contains操作">
                                 
-                                <span class="card-title">Extension-Selector</span>
+                                <span class="card-title">Array.contains操作</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Extension-Selector在Swift中，我们可以使用#selector设置target-action模式中的action操作，如下代码所示：
-class ViewController: UIViewController {
+                                    Array.contains操作Swift中判断一个Array中是否包含某个元素，我们可以使用contains方法，如下代码所示：
+let array = [2, 5, 6, 7, 19, 40]
 
- 
+array.contains(10)  
                                 
                             </div>
                             <div class="publish-info">
@@ -551,23 +549,19 @@ typealias
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/01/01/2017/1/filter-yu-flatmap-guo-lu-nil/">
+                        <a href="/2017/01/01/2017/1/static-fang-fa-yu-class-fang-fa-de-qu-bie/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="filter与flatMap过滤nil">
+                                <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Swift中lazy作惰性求值static方法与class方法的区别">
                                 
-                                <span class="card-title">filter与flatMap过滤nil</span>
+                                <span class="card-title">Swift中lazy作惰性求值static方法与class方法的区别</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    filter与flatMap过滤nil使用高阶函数过滤一个数组中的nil可以有两种方法：filter和flatMap。
-filter方法如下代码所示：
-let array: [Int?] = [1, 2, 3, 5, nil, 9]
-
-le
+                                    static方法与class方法的区别在Swift中，static和class这两个关键字都可以修饰类的方法，以表明这个方法是一个类方法。不过这两者稍微有一些区别：class修饰的类方法可以被子类重写，而static修饰的类方法则不能。如下
                                 
                             </div>
                             <div class="publish-info">
@@ -604,19 +598,23 @@ le
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/01/01/2017/1/static-fang-fa-yu-class-fang-fa-de-qu-bie/">
+                        <a href="/2017/01/01/2017/1/filter-yu-flatmap-guo-lu-nil/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Swift中lazy作惰性求值static方法与class方法的区别">
+                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="filter与flatMap过滤nil">
                                 
-                                <span class="card-title">Swift中lazy作惰性求值static方法与class方法的区别</span>
+                                <span class="card-title">filter与flatMap过滤nil</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    static方法与class方法的区别在Swift中，static和class这两个关键字都可以修饰类的方法，以表明这个方法是一个类方法。不过这两者稍微有一些区别：class修饰的类方法可以被子类重写，而static修饰的类方法则不能。如下
+                                    filter与flatMap过滤nil使用高阶函数过滤一个数组中的nil可以有两种方法：filter和flatMap。
+filter方法如下代码所示：
+let array: [Int?] = [1, 2, 3, 5, nil, 9]
+
+le
                                 
                             </div>
                             <div class="publish-info">
