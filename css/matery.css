@@ -1795,3 +1795,7 @@ footer .copy-right {
     /* bg color = bg color under block */
     background: white;
 }
+
+.friend-name {
+    font-size: 1.9rem;
+}

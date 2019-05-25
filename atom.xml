@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>知识小集</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-05-25T11:01:08.640Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>针对 objc_exception_throw 的实用调试技巧</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/zhen-dui-objc-exception-throw-de-shi-yong-diao-shi-ji-qiao/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/zhen-dui-objc-exception-throw-de-shi-yong-diao-shi-ji-qiao/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:01:08.640Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;针对-objc-exception-throw-的实用调试技巧&quot;&gt;&lt;a href=&quot;#针对-objc-exception-throw-的实用调试技巧&quot; class=&quot;headerlink&quot; title=&quot;针对 objc_exception_throw
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>聊聊 iPad 适配</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:02:56.362Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;聊聊-iPad-适配&quot;&gt;&lt;a href=&quot;#聊聊-iPad-适配&quot; class=&quot;headerlink&quot; title=&quot;聊聊 iPad 适配&quot;&gt;&lt;/a&gt;聊聊 iPad 适配&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;: &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>点击cell不执行-[UITableView didSelectRowAtIndexPath:]方法的几种方式</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/dian-ji-cell-bu-zhi-xing-uitableview-de-didselectrowatindexpath-fang-fa-de-ji-chong-fang-shi/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/dian-ji-cell-bu-zhi-xing-uitableview-de-didselectrowatindexpath-fang-fa-de-ji-chong-fang-shi/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:02:00.675Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;点击cell不执行-UITableView-didSelectRowAtIndexPath-方法的几种方式&quot;&gt;&lt;a href=&quot;#点击cell不执行-UITableView-didSelectRowAtIndexPath-方法的几种方式&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于UIStackView的一个小知识点</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/guan-yu-uistackview-de-yi-ge-xiao-zhi-shi-dian/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/guan-yu-uistackview-de-yi-ge-xiao-zhi-shi-dian/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:59:57.607Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;关于UIStackView的一个小知识点&quot;&gt;&lt;a href=&quot;#关于UIStackView的一个小知识点&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用 strong 而不是 assign 修饰 dispatch 对象</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/shi-yong-strong-er-bu-shi-assign-xiu-shi-dispatch-dui-xiang/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/shi-yong-strong-er-bu-shi-assign-xiu-shi-dispatch-dui-xiang/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:59:31.696Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;使用-strong-而不是-assign-修饰-dispatch-对象&quot;&gt;&lt;a href=&quot;#使用-strong-而不是-assign-修饰-dispatch-对象&quot; class=&quot;headerlink&quot; title=&quot;使用 strong 而不是 assign
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Xcode更新输入账号密码，账号却不是自己的</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:55:08.041Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Xcode更新输入账号密码，账号却不是自己的&quot;&gt;&lt;a href=&quot;#Xcode更新输入账号密码，账号却不是自己的&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>iOS App 异常捕获相互覆盖问题</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/ios-app-yi-chang-bu-huo-xiang-hu-fu-gai-wen-ti/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/ios-app-yi-chang-bu-huo-xiang-hu-fu-gai-wen-ti/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:54:18.946Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;iOS-App-异常捕获相互覆盖问题&quot;&gt;&lt;a href=&quot;#iOS-App-异常捕获相互覆盖问题&quot; class=&quot;headerlink&quot; title=&quot;iOS App 异常捕获相互覆盖问题&quot;&gt;&lt;/a&gt;iOS App
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Xcode 工程设置构建版本号自动递增</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/xcode-gong-cheng-she-zhi-gou-jian-ban-ben-hao-zi-dong-di-zeng/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/xcode-gong-cheng-she-zhi-gou-jian-ban-ben-hao-zi-dong-di-zeng/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:01:26.305Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Xcode-工程设置构建版本号自动递增&quot;&gt;&lt;a href=&quot;#Xcode-工程设置构建版本号自动递增&quot; class=&quot;headerlink&quot; title=&quot;Xcode 工程设置构建版本号自动递增&quot;&gt;&lt;/a&gt;Xcode
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>This block declaration is not a prototype 编译警告处理</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/this-block-declaration-is-not-a-prototype-bian-yi-jing-gao-chu-li/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/this-block-declaration-is-not-a-prototype-bian-yi-jing-gao-chu-li/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:55:40.800Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;This-block-declaration-is-not-a-prototype-编译警告处理&quot;&gt;&lt;a href=&quot;#This-block-declaration-is-not-a-prototype-编译警告处理&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Swift 中实现 synchronized</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/swift-zhong-shi-xian-synchronized/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/swift-zhong-shi-xian-synchronized/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:01:43.825Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Swift-中实现-synchronized&quot;&gt;&lt;a href=&quot;#Swift-中实现-synchronized&quot; class=&quot;headerlink&quot; title=&quot;Swift 中实现 synchronized&quot;&gt;&lt;/a&gt;Swift 中实现
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NSScanner 过滤字符串</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/nsscanner-guo-lu-zi-fu-chuan/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/nsscanner-guo-lu-zi-fu-chuan/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:02:40.303Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;NSScanner-过滤字符串&quot;&gt;&lt;a href=&quot;#NSScanner-过滤字符串&quot; class=&quot;headerlink&quot; title=&quot;NSScanner 过滤字符串&quot;&gt;&lt;/a&gt;NSScanner
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Framework 中混合编程时 umbrella header 设置注意事项</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/framework-zhong-hun-he-bian-cheng-shi-umbrella-header-she-zhi-zhu-yi-shi-xiang/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/framework-zhong-hun-he-bian-cheng-shi-umbrella-header-she-zhi-zhu-yi-shi-xiang/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:55:25.529Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Framework-中混合编程时-umbrella-header-设置注意事项&quot;&gt;&lt;a href=&quot;#Framework-中混合编程时-umbrella-header-设置注意事项&quot; class=&quot;headerlink&quot; title=&quot;Framework
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Command Not Found</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/command-not-found/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/command-not-found/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:00:48.908Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Command-Not-Found&quot;&gt;&lt;a href=&quot;#Command-Not-Found&quot; class=&quot;headerlink&quot; title=&quot;Command Not Found&quot;&gt;&lt;/a&gt;Command Not
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Debug Memory Graph检查内存泄漏</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/debug-memory-graph-jian-cha-nei-cun-xie-lou/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/debug-memory-graph-jian-cha-nei-cun-xie-lou/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:54:40.671Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Debug-Memory-Graph检查内存泄漏&quot;&gt;&lt;a href=&quot;#Debug-Memory-Graph检查内存泄漏&quot; class=&quot;headerlink&quot; title=&quot;Debug Memory Graph检查内存泄漏&quot;&gt;&lt;/a&gt;Debug Memory
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Aspects hook 类方法的正确姿势</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/aspects-hook-lei-fang-fa-de-zheng-que-zi-shi/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/aspects-hook-lei-fang-fa-de-zheng-que-zi-shi/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:54:54.082Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Aspects-hook-类方法的正确姿势&quot;&gt;&lt;a href=&quot;#Aspects-hook-类方法的正确姿势&quot; class=&quot;headerlink&quot; title=&quot;Aspects hook 类方法的正确姿势 &quot;&gt;&lt;/a&gt;Aspects hook 类方法的正确姿势
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在 UILabel 中渲染 HTML</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:54:00.951Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;在-UILabel-中渲染-HTML&quot;&gt;&lt;a href=&quot;#在-UILabel-中渲染-HTML&quot; class=&quot;headerlink&quot; title=&quot;在 UILabel 中渲染 HTML&quot;&gt;&lt;/a&gt;在 UILabel 中渲染
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>几个第三方框架关于线程锁的封装小技巧</title>
+    <link href="http://yoursite.com/2018/09/01/2018/9/ji-ge-di-san-fang-kuang-jia-guan-yu-xian-cheng-suo-de-feng-zhuang-xiao-ji-qiao/"/>
+    <id>http://yoursite.com/2018/09/01/2018/9/ji-ge-di-san-fang-kuang-jia-guan-yu-xian-cheng-suo-de-feng-zhuang-xiao-ji-qiao/</id>
+    <published>2018-08-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:52:50.959Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;几个第三方框架关于线程锁的封装小技巧&quot;&gt;&lt;a href=&quot;#几个第三方框架关于线程锁的封装小技巧&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>给 UIView 添加阴影</title>
+    <link href="http://yoursite.com/2018/08/01/2018/8/gei-uiview-tian-jia-yin-ying/"/>
+    <id>http://yoursite.com/2018/08/01/2018/8/gei-uiview-tian-jia-yin-ying/</id>
+    <published>2018-07-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:51:29.625Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;给-UIView-添加阴影&quot;&gt;&lt;a href=&quot;#给-UIView-添加阴影&quot; class=&quot;headerlink&quot; title=&quot;给 UIView 添加阴影&quot;&gt;&lt;/a&gt;给 UIView 添加阴影&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;: &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>再谈数组、集合、字典与 hash、isEqual 方法的关联</title>
+    <link href="http://yoursite.com/2018/08/01/2018/8/zai-tan-shu-zu-ji-he-zi-dian-yu-hash-isequal-fang-fa-de-guan-lian/"/>
+    <id>http://yoursite.com/2018/08/01/2018/8/zai-tan-shu-zu-ji-he-zi-dian-yu-hash-isequal-fang-fa-de-guan-lian/</id>
+    <published>2018-07-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:50:42.431Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;再谈数组、集合、字典与-hash、isEqual-方法的关联&quot;&gt;&lt;a href=&quot;#再谈数组、集合、字典与-hash、isEqual-方法的关联&quot; class=&quot;headerlink&quot; title=&quot;再谈数组、集合、字典与 hash、isEqual
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>区分SDWebImage的三种缓存</title>
+    <link href="http://yoursite.com/2018/08/01/2018/8/qu-fen-sdwebimage-de-san-chong-huan-cun/"/>
+    <id>http://yoursite.com/2018/08/01/2018/8/qu-fen-sdwebimage-de-san-chong-huan-cun/</id>
+    <published>2018-07-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:50:24.414Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;区分SDWebImage的三种缓存&quot;&gt;&lt;a href=&quot;#区分SDWebImage的三种缓存&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
