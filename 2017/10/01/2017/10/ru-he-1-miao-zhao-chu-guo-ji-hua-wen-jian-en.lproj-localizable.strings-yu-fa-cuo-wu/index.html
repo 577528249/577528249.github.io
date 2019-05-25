@@ -557,30 +557,33 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/10/01/2017/10/ru-he-zhao-chu-guo-ji-hua-wen-jian-xxxx.strings-zhong-wei-guo-ji-hua-de-wen-jian/">
+                <a href="/2017/11/01/2017/11/shi-yong-nslog-ke-neng-chu-xian-de-an-quan-wen-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="如何找出国际化文件(xxxx.strings)中未国际化的文件">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="使用NSLog可能出现的安全问题">
                         
-                        <span class="card-title">如何找出国际化文件(xxxx.strings)中未国际化的文件</span>
+                        <span class="card-title">使用NSLog可能出现的安全问题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            如何找出国际化文件(xxxx.strings)中未国际化的文件作者: Lefe_x
-国际化的时候难免会由于不小心，会出现某个.strings文件中存在没有添加的国际化字符串。比如某个项目中支持中文和英文。在中文国际化文件（zh-Hans.l
+                            使用NSLog可能出现的安全问题作者: iOS_OneByte
+iOS 经常定义类似如下的输出宏:
+#ifdef DEBUG
+    #define ZJLog(fmt, ...) NSLog((fmt), ##__VA_ARGS__)
+#
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2017-10-01
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2017-11-01
                         </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            Lefe_x
+                            iOS_OneByte
                             
                         </span>
                     </div>
@@ -595,20 +598,21 @@
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/10/01/2017/10/pan-duan-shi-fou-zai-zhu-dui-lie-yun-xing/">
+                <a href="/2017/10/01/2017/10/xcode-9.1-dui-beng-kui-ti-shi-de-gai-jin/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="判断是否在主队列运行">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Xcode 9.1对崩溃提示的改进">
                         
-                        <span class="card-title">判断是否在主队列运行</span>
+                        <span class="card-title">Xcode 9.1对崩溃提示的改进</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            判断是否在主队列运行在iOS中，如果我们要判断代码是否运行在主线程，可以直接使用NSThread.isMainThread()方法。但如果要判断是否运行在主队列(main queue)呢？
-需要注意的是，每个应用都只有一个主线程，但主线程中
+                            Xcode 9.1对崩溃提示的改进Xcode 9.1改进了Swift程序崩溃时的错误提示信息：在debug模式下运行程序，崩溃时将在编辑区的崩溃位置显示崩溃的原因，如下图所示：
+
+而在此之前，只是显示简单的诸EXC_BAD_INSTRUCT
                         
                     </div>
                     <div class="publish-info">

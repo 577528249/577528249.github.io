@@ -594,23 +594,21 @@ vectors<span class="token punctuation">.</span><span class="token function">appe
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/guan-jian-zi-autoclosure/">
+                <a href="/2017/02/01/2017/2/dao-zhi-layer-hui-zhi-de-xing-neng-wen-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="关键字autoclosure">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="导致layer绘制的性能问题">
                         
-                        <span class="card-title">关键字autoclosure</span>
+                        <span class="card-title">导致layer绘制的性能问题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            @autoclosureSwift中的@autoclosure还是一个很有意思的属性，它用于修饰函数中的闭包类型的参数，它主要有两个作用：
+                            导致layer绘制的性能问题CALayer的大部分属性都是通过GPU来绘制的。以下几类操作可能导致layer绘制的性能问题：
 
-将一个表达式自动封装成一个闭包，从而简化函数/方法的调用方式，如下代码所示；
-
-var custo
+过多的几何形状：这里的瓶颈主要是在对layer的预处理及通过IPC发送到render server这个过程，即C
                         
                     </div>
                     <div class="publish-info">
@@ -635,21 +633,22 @@ var custo
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/dao-zhi-layer-hui-zhi-de-xing-neng-wen-ti/">
+                <a href="/2017/02/01/2017/2/ios-dong-hua-ying-yong-nei-chu-li-de-4-ge-jie-duan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="导致layer绘制的性能问题">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="iOS动画应用内处理的4个阶段">
                         
-                        <span class="card-title">导致layer绘制的性能问题</span>
+                        <span class="card-title">iOS动画应用内处理的4个阶段</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            导致layer绘制的性能问题CALayer的大部分属性都是通过GPU来绘制的。以下几类操作可能导致layer绘制的性能问题：
+                            iOS动画应用内处理的4个阶段在iOS中，动画的执行主要分6个阶段，其中4个阶段是在应用内部处理的：
 
-过多的几何形状：这里的瓶颈主要是在对layer的预处理及通过IPC发送到render server这个过程，即C
+Layout: 这一阶段是准备好view/layer的层级结构并设置layer的属性；
+Display: 这一阶段将绘制layer的内容
                         
                     </div>
                     <div class="publish-info">

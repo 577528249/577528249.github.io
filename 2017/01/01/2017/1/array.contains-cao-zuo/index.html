@@ -590,22 +590,19 @@ array<span class="token punctuation">.</span><span class="token builtin">contain
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/01/01/2017/1/extension-selector/">
+                <a href="/2017/01/01/2017/1/nsrecursivelock.lock/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Extension-Selector">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="NSRecursiveLock.lock(before:)">
                         
-                        <span class="card-title">Extension-Selector</span>
+                        <span class="card-title">NSRecursiveLock.lock(before:)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Extension-Selector在Swift中，我们可以使用#selector设置target-action模式中的action操作，如下代码所示：
-class ViewController: UIViewController {
-
- 
+                            NSRecursiveLock.lock(before:)NSRecursiveLock递归锁提供了一个方法lock(before:)，用于在多线程情况下，去尝试请求一个递归锁，然后根据返回的布尔值，来做相应的处理。如下代码所示，是一个正常
                         
                     </div>
                     <div class="publish-info">
@@ -627,25 +624,25 @@ class ViewController: UIViewController {
         
         <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fa fa-chevron-right"></i>
+                Current&nbsp;<i class="fa fa-dot-circle-o"></i>
             </div>
             <div class="card">
-                <a href="/2017/01/01/2017/1/swift-zhong-lazy-zuo-duo-xing-qiu-zhi/">
+                <a href="/2017/01/01/2017/1/array.contains-cao-zuo/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Swift的stride操作">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Array.contains操作">
                         
-                        <span class="card-title">Swift的stride操作</span>
+                        <span class="card-title">Array.contains操作</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Swift的stride操作在Swift中，如果我们想创建一个一定步长的数组，可以如下代码操作：
-var array: [Double] = []
-for value in 0..&lt;10 {
-    array.append(Doub
+                            Array.contains操作Swift中判断一个Array中是否包含某个元素，我们可以使用contains方法，如下代码所示：
+let array = [2, 5, 6, 7, 19, 40]
+
+array.contains(10)  
                         
                     </div>
                     <div class="publish-info">
@@ -660,6 +657,7 @@ for value in 0..&lt;10 {
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>

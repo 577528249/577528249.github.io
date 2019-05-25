@@ -340,21 +340,19 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/cha-kan-yi-ge-dui-xiang-de-lei-xing-shi-fou-wei-optional/">
+                        <a href="/2017/02/01/2017/2/swift-rawrepresentable/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="查看一个对象的类型是否为Optional">
+                                <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Swift RawRepresentable">
                                 
-                                <span class="card-title">查看一个对象的类型是否为Optional</span>
+                                <span class="card-title">Swift RawRepresentable</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    查看一个对象的类型是否为Optional在Swift中，如果想在运行时判断一个对象的类型是不是可选类型，则可以使用Mirror，如下代码所示，所有的可选类型都将返回optional。
-let value: Int? = 3
-Mirror(r
+                                    Swift RawRepresentableSwift编译器自动为带有raw type的enum添加了RawRepresentable协议的实现。RawRepresentable协议的定义如代码清单11-1-1所示，它可以为某个类型定义一个
                                 
                             </div>
                             <div class="publish-info">
@@ -391,19 +389,23 @@ Mirror(r
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/arrayslice-de-yong-tu/">
+                        <a href="/2017/02/01/2017/2/swift-da-yin-dui-xiang-de-di-zhi/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="ArraySlice的用途">
+                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Swift打印对象的地址">
                                 
-                                <span class="card-title">ArraySlice的用途</span>
+                                <span class="card-title">Swift打印对象的地址</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    ArraySlice的用途Swift提供了ArraySlice来执行数组的切片操作。类似于其它语言中的切片(如Python)，ArraySlice对象复用了原始数组的存储结构，而不是新开辟一块内存区域来将数组片断的元素拷贝过来。因此，它能让
+                                    Swift打印对象的地址在Swift中，我们可以使用withUnsafePointer(to:_:)函数来获取一个变量的指针，如下代码所示：
+var x = 42
+var y = 3.14
+var z = "foo"
+var obj = N
                                 
                             </div>
                             <div class="publish-info">

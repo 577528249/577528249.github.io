@@ -579,30 +579,30 @@ NSSet *retainCycles = [detector findRetainCycles];
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2018/08/01/2018/8/shi-yong-keychain-cun-chu-deng-lu-tai-xu-yao-zhu-yi-de-yi-ge-keng/">
+                <a href="/2018/07/01/2018/7/yi-ge-guan-yu-gcd-group-shi-yong-de-xiao-tip/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="使用 Keychain 存储登录态需要注意的一个坑">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="一个关于 GCD group 使用的小 tip">
                         
-                        <span class="card-title">使用 Keychain 存储登录态需要注意的一个坑</span>
+                        <span class="card-title">一个关于 GCD group 使用的小 tip</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            使用 Keychain 存储登录态需要注意的一个坑作者: KANGZUBIN
-今天要讨论的这个问题你可能永远都不会遇到，而且绝大部分情况下你很难在开发中事先预料到它未来可能会发生，但是一旦不幸发生了，可能就是一个很严重的线上问题，惨痛教训。
+                            一个关于 GCD group 使用的小 tip作者: halohily
+在项目中看到一段使用 GCD group 处理的代码，简化下来大概如图1，dispatch_group_notify 的调用放在了 dispatch_group_asy
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-08-01
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-01
                         </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            KANGZUBIN
+                            halohily
                             
                         </span>
                     </div>
@@ -617,20 +617,21 @@ NSSet *retainCycles = [detector findRetainCycles];
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/07/01/2018/7/jing-tai-uitableview-liang-chong-style-de-chai-yi/">
+                <a href="/2018/07/01/2018/7/vc-duo-ceng-push-hou-hui-dao-zhi-ding-ye-mian-de-ji-chong-fang-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="静态 UITableView 两种 style 的差异">
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="vc多层push后回到指定页面的几种方法">
                         
-                        <span class="card-title">静态 UITableView 两种 style 的差异</span>
+                        <span class="card-title">vc多层push后回到指定页面的几种方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            静态 UITableView 两种 style 的差异作者: Vong_HUST
-想必设置页应该是各大应用所必备的，相信大部分还是采用静态 UITableView 的方式在构建，我们项目中也用到了。最近测试反馈一个问题就是一些配置项的描述文
+                            vc多层push后回到指定页面的几种方法作者: 这个汤圆没有馅
+场景如下：RootVC – &gt; A – &gt; B – &gt; C，然后现在要求C直接pop回到A。
+方法一：C返回到B的时候写个回调，B接收到回调再自己pop到A，
                         
                     </div>
                     <div class="publish-info">
@@ -640,7 +641,7 @@ NSSet *retainCycles = [detector findRetainCycles];
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            Vong_HUST
+                            这个汤圆没有馅
                             
                         </span>
                     </div>

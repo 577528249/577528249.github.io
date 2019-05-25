@@ -340,22 +340,20 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2018/03/01/2018/3/jie-jue-xcode-zhen-ji-wu-fa-lian-diao-de-ye-lu-zi/">
+                        <a href="/2018/03/01/2018/3/ios9-yi-hou-openurl-he-canopenurl-shi-yong-xian-zhi-de-xiao-wu-qu/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="解决Xcode真机无法联调的野路子">
+                                <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="iOS9 以后 openURL 和 canOpenURL 使用限制的小误区">
                                 
-                                <span class="card-title">解决Xcode真机无法联调的野路子</span>
+                                <span class="card-title">iOS9 以后 openURL 和 canOpenURL 使用限制的小误区</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    解决Xcode真机无法联调的野路子作者: 高老师很忙
-最近在真机联调的时候，经常遇到 App installation failed.&lt;Could not write to the device.&gt; 的错误提示，所下图所示。
-
-
+                                    iOS9 以后 openURL 和 canOpenURL 使用限制的小误区作者: KANGZUBIN
+通常我们会用 UIApplication 的 openURL: 方法调起其他 App 来进行一些操作，如分享、第三方登录、支付等。但 iO
                                 
                             </div>
                             <div class="publish-info">
@@ -365,7 +363,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 <span class="publish-author">
                                     
                                     <i class="fa fa-user fa-fw"></i>
-                                    高老师很忙
+                                    KANGZUBIN
                                     
                                 </span>
                             </div>
@@ -392,20 +390,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2018/03/01/2018/3/jie-jue-xiu-gai-xcconfig-pei-zhi-ban-ben-hao-he-build-hao-bu-sheng-xiao-de-wen-ti/">
+                        <a href="/2018/03/01/2018/3/pod-guan-yu-unknown-uuid-jing-gao-de-jie-jue-fang-shi/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="解决修改 xcconfig 配置版本号和 build 号不生效的问题">
+                                <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Pod 关于 unknown UUID 警告的解决方式">
                                 
-                                <span class="card-title">解决修改 xcconfig 配置版本号和 build 号不生效的问题</span>
+                                <span class="card-title">Pod 关于 unknown UUID 警告的解决方式</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    解决修改 xcconfig 配置版本号和 build 号不生效的问题作者: 高老师很忙
-之前我有介绍过 xcconfig 这个 tip，最近使用中遇到了一点小问题：当我使用 xcconfig 来管理版本号和 build 号时（如下图所示），
+                                    Pod 关于 unknown UUID 警告的解决方式作者: Vong_HUST
+最近某次在 pod install 之后会发现终端会输出类似下面的提示：
+[!] `&lt;PBXBuildFile UUID=`xxxxxxx`&gt;` 
                                 
                             </div>
                             <div class="publish-info">
@@ -415,7 +414,57 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 <span class="publish-author">
                                     
                                     <i class="fa fa-user fa-fw"></i>
-                                    高老师很忙
+                                    Vong_HUST
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>01</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6 overflow-policy">
+                    <div class="card">
+                        <a href="/2018/03/01/2018/3/ios-9-yi-hou-tong-zhi-bu-zai-xu-yao-shou-dong-yi-chu/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="iOS 9 以后通知不再需要手动移除">
+                                
+                                <span class="card-title">iOS 9 以后通知不再需要手动移除</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                    iOS 9 以后通知不再需要手动移除作者: halohily
+通知 NSNotification 在注册者被回收时需要手动移除，是一直以来的使用准则。原因是在 MRC 时代，通知中心持有的是注册者的 unsafe_unretained 指针
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2018-03-01
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-user fa-fw"></i>
+                                    halohily
                                     
                                 </span>
                             </div>
@@ -547,22 +596,20 @@ Objective-C 引入泛型后，就可能会遇到一个类型转换的问题，�
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2018/03/01/2018/3/cycript-diao-shi-di-san-fang-app/">
+                        <a href="/2018/03/01/2018/3/jie-jue-wkwebview-wu-fa-chu-li-url-scheme-he-app-store-lian-jie-de-wen-ti/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Cycript调试第三方APP">
+                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="解决 WKWebView 无法处理 URL Scheme 和 App Store 链接的问题">
                                 
-                                <span class="card-title">Cycript调试第三方APP</span>
+                                <span class="card-title">解决 WKWebView 无法处理 URL Scheme 和 App Store 链接的问题</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Cycript调试第三方APP
-作者: Lefe_x
-试想一种场景，我想知道某个第三方 APP 当前页面对应的是哪个 VC，想让某个实例执行某个函数后的效果，打印当前的视图层级，咋么办？
-其实使用 Cycript 即可解决这几个问题，Cyc
+                                    解决 WKWebView 无法处理 URL Scheme 和 App Store 链接的问题作者: KANGZUBIN
+之前使用 UIWebView 时，当遇到 App Store 下载链接（例如： https://itunes.apple
                                 
                             </div>
                             <div class="publish-info">
@@ -572,58 +619,7 @@ Objective-C 引入泛型后，就可能会遇到一个类型转换的问题，�
                                 <span class="publish-author">
                                     
                                     <i class="fa fa-user fa-fw"></i>
-                                    Lefe_x
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>01</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6 overflow-policy">
-                    <div class="card">
-                        <a href="/2018/03/01/2018/3/pod-guan-yu-unknown-uuid-jing-gao-de-jie-jue-fang-shi/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Pod 关于 unknown UUID 警告的解决方式">
-                                
-                                <span class="card-title">Pod 关于 unknown UUID 警告的解决方式</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                    Pod 关于 unknown UUID 警告的解决方式作者: Vong_HUST
-最近某次在 pod install 之后会发现终端会输出类似下面的提示：
-[!] `&lt;PBXBuildFile UUID=`xxxxxxx`&gt;` 
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2018-03-01
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-user fa-fw"></i>
-                                    Vong_HUST
+                                    KANGZUBIN
                                     
                                 </span>
                             </div>
@@ -646,6 +642,57 @@ Objective-C 引入泛型后，就可能会遇到一个类型转换的问题，�
             <div class="cd-timeline-img month" data-aos="zoom-in-up">
                 <a href="/archives/2018/02">02</a>
             </div>
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>01</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6 overflow-policy">
+                    <div class="card">
+                        <a href="/2018/02/01/2018/2/shi-yong-avcapturesession-cai-de-yi-ge-keng/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="使用AVCaptureSession踩的一个坑">
+                                
+                                <span class="card-title">使用AVCaptureSession踩的一个坑</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                    使用AVCaptureSession踩的一个坑作者: Vong_HUST
+最近遇到一个 bug，场景是这样的：
+应用中有两个相机相关的页面，直播页和直播封面拍摄页（两个页面相机实例不是同一个），进入直播页时，设置了 preset1（16:9
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2018-02-01
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-user fa-fw"></i>
+                                    Vong_HUST
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
             
 
             
@@ -751,57 +798,6 @@ clang -ccc-print-phases main.m
 
             
             
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>01</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6 overflow-policy">
-                    <div class="card">
-                        <a href="/2018/02/01/2018/2/shi-yong-avcapturesession-cai-de-yi-ge-keng/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="使用AVCaptureSession踩的一个坑">
-                                
-                                <span class="card-title">使用AVCaptureSession踩的一个坑</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                    使用AVCaptureSession踩的一个坑作者: Vong_HUST
-最近遇到一个 bug，场景是这样的：
-应用中有两个相机相关的页面，直播页和直播封面拍摄页（两个页面相机实例不是同一个），进入直播页时，设置了 preset1（16:9
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2018-02-01
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-user fa-fw"></i>
-                                    Vong_HUST
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
             
             <div class="cd-timeline-img month" data-aos="zoom-in-up">
                 <a href="/archives/2018/01">01</a>
@@ -815,20 +811,20 @@ clang -ccc-print-phases main.m
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2018/01/01/2018/1/ios-zhong-yin-liang-kong-zhi-jie-huo/">
+                        <a href="/2018/01/01/2018/1/ios-guan-yu-yin-pin-bo-fang-diao-yan/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="iOS 中音量控制解惑">
+                                <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="iOS 关于音频播放调研">
                                 
-                                <span class="card-title">iOS 中音量控制解惑</span>
+                                <span class="card-title">iOS 关于音频播放调研</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    iOS 中音量控制解惑作者: Lefe_x
-iOS 中音量中其实也有好多小窍门，这个小集帮你解惑。iOS 中主要有2个地方可以控制音量，一个是系统音量，用户主动按音量键，调整音量，这种方式会显示系统音量提示框；另一个是播放器的音量，比如通过
+                                    iOS 关于音频播放调研作者: Lefe_x
+由于最近做音频方面的工作，就调研了一下关于音频播放的一些知识，中间也走过不少弯路，希望这篇小集能对关注我们的同学一点启示，少走一些弯路。最后提供一份我看过的资料。这里关于音频播放简单做一个总结。
                                 
                             </div>
                             <div class="publish-info">

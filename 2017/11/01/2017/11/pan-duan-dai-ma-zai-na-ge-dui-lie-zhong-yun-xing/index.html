@@ -574,23 +574,21 @@ com.apple.root.background-qos       // DISPATCH_QUEUE_PRIORITY_BACKGROUND
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/11/01/2017/11/shi-yong-nslog-ke-neng-chu-xian-de-an-quan-wen-ti/">
+                <a href="/2017/11/01/2017/11/pod-install-he-pod-update-de-qu-bie/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="使用NSLog可能出现的安全问题">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="pod install 和 pod update 的区别">
                         
-                        <span class="card-title">使用NSLog可能出现的安全问题</span>
+                        <span class="card-title">pod install 和 pod update 的区别</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            使用NSLog可能出现的安全问题作者: iOS_OneByte
-iOS 经常定义类似如下的输出宏:
-#ifdef DEBUG
-    #define ZJLog(fmt, ...) NSLog((fmt), ##__VA_ARGS__)
-#
+                            pod install 和 pod update 的区别作者: Vong_HUST
+首先 podfile.lock 和 podfile 必须加入版本控制。
+install 并不是第一次创建 podfile 时运行一次，后面就不再使用了。in
                         
                     </div>
                     <div class="publish-info">
@@ -600,7 +598,7 @@ iOS 经常定义类似如下的输出宏:
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            iOS_OneByte
+                            Vong_HUST
                             
                         </span>
                     </div>
@@ -615,20 +613,23 @@ iOS 经常定义类似如下的输出宏:
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/11/01/2017/11/nsfetchedresultscontroller-jian-rong-xing-wen-ti/">
+                <a href="/2017/11/01/2017/11/pan-duan-zi-lei-shi-fou-shi-xian-fu-lei-de-fang-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="NSFetchedResultsController兼容性问题">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="判断子类是否实现父类的方法">
                         
-                        <span class="card-title">NSFetchedResultsController兼容性问题</span>
+                        <span class="card-title">判断子类是否实现父类的方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            NSFetchedResultsController兼容性问题作者: Vong_HUST
-熟悉 CoreData 的都知道 NSFetchedResultsController 这个类，与 tableView 和 collectionVie
+                            判断子类是否实现父类的方法想在程序运行时判断一个子类是否实现了父类的某个方法，可以比较两个类对应方法的指针是否相等。以 -init 方法为例，如下代码所示:
+@interface Test: NSObject
+@end
+
+@implemen
                         
                     </div>
                     <div class="publish-info">
@@ -638,7 +639,7 @@ iOS 经常定义类似如下的输出宏:
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            Vong_HUST
+                            知识小集成员
                             
                         </span>
                     </div>

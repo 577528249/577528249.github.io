@@ -340,20 +340,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/never-lei-xing/">
+                        <a href="/2017/02/01/2017/2/arrayslice-shi-yong-zhu-yi-shi-xiang/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Never类型">
+                                <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ArraySlice使用注意事项">
                                 
-                                <span class="card-title">Never类型</span>
+                                <span class="card-title">ArraySlice使用注意事项</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Never类型之前有一条知识小集讲了可以用 @noreturn 用来修饰函数，以告诉编译器函数永远不返回值给调用方。如下代码是原来的fatalError的声明。
-public func fatalError(_ message: @auto
+                                    ArraySlice使用注意事项使用ArraySlice时，需要注意两点：
+
+ArraySlice会维持对原始数组的一个强引用，而不仅仅是它所表示的片断。这样即使原始数组对象的生命周期结束了，也可能无法释放。所以不建议长期存储ArraySl
                                 
                             </div>
                             <div class="publish-info">
@@ -390,20 +391,21 @@ public func fatalError(_ message: @auto
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/repeated-jie-gou-ti/">
+                        <a href="/2017/02/01/2017/2/cha-kan-yi-ge-dui-xiang-de-lei-xing-shi-fou-wei-optional/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Repeated结构体">
+                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="查看一个对象的类型是否为Optional">
                                 
-                                <span class="card-title">Repeated结构体</span>
+                                <span class="card-title">查看一个对象的类型是否为Optional</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Repeated结构体Swift提供了一个Repeated结构体，用于表示一个所有元素都相同的集合。我们可以使用repeatElement(_:count:)函数来创建Repeated集合，如下代码所示：
-let repeatedName 
+                                    查看一个对象的类型是否为Optional在Swift中，如果想在运行时判断一个对象的类型是不是可选类型，则可以使用Mirror，如下代码所示，所有的可选类型都将返回optional。
+let value: Int? = 3
+Mirror(r
                                 
                             </div>
                             <div class="publish-info">
@@ -440,21 +442,19 @@ let repeatedName
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/swift-compile-warning/">
+                        <a href="/2017/02/01/2017/2/wei-diao-yong-you-hua/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Swift Compile Warning">
+                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="尾调用优化">
                                 
-                                <span class="card-title">Swift Compile Warning</span>
+                                <span class="card-title">尾调用优化</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Swift Compile Warning在Swift中，我们通常会用FIXME/TODO/MARK来做一些注释标注，这些标注在代码的dropdown box中能显示出来，如下图所示：
-
-不过，如果我们标注的是一些警告或错误信息的话，这用方
+                                    尾调用优化尾调用是指一个函数里的最后一个动作是一个函数调用的情形：即这个调用的返回值直接被当前函数返回。我们知道在函数调用时，会在内存中生成一个调用记录，即调用帧(call frame)，用于保存调用位置和内部变量等信息。而尾调用由于是函数
                                 
                             </div>
                             <div class="publish-info">
@@ -491,19 +491,21 @@ let repeatedName
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/swift-rawrepresentable/">
+                        <a href="/2017/02/01/2017/2/dao-zhi-layer-hui-zhi-de-xing-neng-wen-ti/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Swift RawRepresentable">
+                                <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="导致layer绘制的性能问题">
                                 
-                                <span class="card-title">Swift RawRepresentable</span>
+                                <span class="card-title">导致layer绘制的性能问题</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Swift RawRepresentableSwift编译器自动为带有raw type的enum添加了RawRepresentable协议的实现。RawRepresentable协议的定义如代码清单11-1-1所示，它可以为某个类型定义一个
+                                    导致layer绘制的性能问题CALayer的大部分属性都是通过GPU来绘制的。以下几类操作可能导致layer绘制的性能问题：
+
+过多的几何形状：这里的瓶颈主要是在对layer的预处理及通过IPC发送到render server这个过程，即C
                                 
                             </div>
                             <div class="publish-info">
@@ -540,20 +542,23 @@ let repeatedName
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/swiftlint/">
+                        <a href="/2017/02/01/2017/2/duo-wei-xia-biao/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="SwiftLint">
+                                <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="多维下标">
                                 
-                                <span class="card-title">SwiftLint</span>
+                                <span class="card-title">多维下标</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    SwiftLintrealm开源了一套Swift代码规范检测工具SwiftLint，它可以对代码做静态分析，以确定代码是否遵循所定制的规范(目前主要基于Github的编码规范)。
-SwiftLint目前有70+条规则，同时社区还在不断贡献新
+                                    多维下标我们通常看到的下标操作都是一维的，不过如果有需要，我们可以定义多维的下标操作，如下代码所示：
+// 定义一个三维结构体
+struct Vector3D&lt;T: Equatable> {
+    var x: T
+    var
                                 
                             </div>
                             <div class="publish-info">
@@ -590,21 +595,22 @@ SwiftLint目前有70+条规则，同时社区还在不断贡献新
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/swift-zhong-da-yin-xian-cheng-diao-yong-zhan/">
+                        <a href="/2017/02/01/2017/2/ios-dong-hua-ying-yong-nei-chu-li-de-4-ge-jie-duan/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Swift中打印线程调用栈">
+                                <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="iOS动画应用内处理的4个阶段">
                                 
-                                <span class="card-title">Swift中打印线程调用栈</span>
+                                <span class="card-title">iOS动画应用内处理的4个阶段</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Swift中打印线程调用栈在Swift 3中，如果想打印线程的调用栈，可以简单的使用Thread.callStackSymbols，如下代码所示：
-for symbol in Thread.callStackSymbols {
-    pr
+                                    iOS动画应用内处理的4个阶段在iOS中，动画的执行主要分6个阶段，其中4个阶段是在应用内部处理的：
+
+Layout: 这一阶段是准备好view/layer的层级结构并设置layer的属性；
+Display: 这一阶段将绘制layer的内容
                                 
                             </div>
                             <div class="publish-info">
@@ -641,21 +647,21 @@ for symbol in Thread.callStackSymbols {
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/swift-zai-kuo-zhan-zhong-chong-xie-fu-lei-fang-fa/">
+                        <a href="/2017/02/01/2017/2/ios-dong-hua-zai-xi-tong-zhong-chu-li-de-2-ge-jie-duan/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Swift在扩展中重写父类方法">
+                                <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="iOS动画在系统中处理的2个阶段">
                                 
-                                <span class="card-title">Swift在扩展中重写父类方法</span>
+                                <span class="card-title">iOS动画在系统中处理的2个阶段</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Swift在扩展中重写父类方法Swift在类的extension中，如果想重写父类的方法，会有以下两个限制(不局限于这两个，可能还有其它)：
+                                    iOS动画在系统中处理的2个阶段接上一条。打包的layer和动画发送到render server后，会被反序列化成render tree。Render server将对动画的每一帧执行以下两步操作：
 
-类本身必须是NSObject体系下的类，且要重写的方法的参数、返回值不能带有纯Swift的类/结
+计算所有layer属性的中间值，并设置
                                 
                             </div>
                             <div class="publish-info">
@@ -692,73 +698,23 @@ for symbol in Thread.callStackSymbols {
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/02/01/2017/2/swift-da-yin-dui-xiang-de-di-zhi/">
+                        <a href="/2017/02/01/2017/2/guan-jian-zi-autoclosure/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Swift打印对象的地址">
+                                <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="关键字autoclosure">
                                 
-                                <span class="card-title">Swift打印对象的地址</span>
+                                <span class="card-title">关键字autoclosure</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Swift打印对象的地址在Swift中，我们可以使用withUnsafePointer(to:_:)函数来获取一个变量的指针，如下代码所示：
-var x = 42
-var y = 3.14
-var z = "foo"
-var obj = N
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2017-02-01
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-user fa-fw"></i>
-                                    知识小集成员
-                                    
-                                </span>
-                            </div>
-                        </div>
+                                    @autoclosureSwift中的@autoclosure还是一个很有意思的属性，它用于修饰函数中的闭包类型的参数，它主要有两个作用：
 
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
+将一个表达式自动封装成一个闭包，从而简化函数/方法的调用方式，如下代码所示；
 
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>01</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6 overflow-policy">
-                    <div class="card">
-                        <a href="/2017/02/01/2017/2/swift-zi-ding-yi-cao-zuo-fu/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Swift自定义操作符">
-                                
-                                <span class="card-title">Swift自定义操作符</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                    Swift自定义操作符在Swift中，自定义操作符就是简单的二步：首先在全局使用operator关键字来声明操作符，同时用prefix、infix或postfix来声明操作符的位置；然后在所需要的类/结构体中实现操作符。如下代码所示：
-po
+var custo
                                 
                             </div>
                             <div class="publish-info">
@@ -810,6 +766,56 @@ po
                                     Uninhabited TypesNever是一个空枚举，即没有有效的case。所以它是一种uninhabited type，即明显没有值的类型。Swift中，以下两种情况可以看成是uninhabited type：
 
 一个枚举类型，如果没
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2017-02-01
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-user fa-fw"></i>
+                                    知识小集成员
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>01</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6 overflow-policy">
+                    <div class="card">
+                        <a href="/2017/02/01/2017/2/swift-zi-ding-yi-cao-zuo-fu/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Swift自定义操作符">
+                                
+                                <span class="card-title">Swift自定义操作符</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                    Swift自定义操作符在Swift中，自定义操作符就是简单的二步：首先在全局使用operator关键字来声明操作符，同时用prefix、infix或postfix来声明操作符的位置；然后在所需要的类/结构体中实现操作符。如下代码所示：
+po
                                 
                             </div>
                             <div class="publish-info">

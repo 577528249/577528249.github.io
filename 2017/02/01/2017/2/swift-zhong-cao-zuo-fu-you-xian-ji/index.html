@@ -615,21 +615,21 @@ precedencegroup <span class="token builtin">BitwiseShiftPrecedence</span> <span 
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/arrayslice-shi-yong-zhu-yi-shi-xiang/">
+                <a href="/2017/02/01/2017/2/swift-zai-kuo-zhan-zhong-chong-xie-fu-lei-fang-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ArraySlice使用注意事项">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Swift在扩展中重写父类方法">
                         
-                        <span class="card-title">ArraySlice使用注意事项</span>
+                        <span class="card-title">Swift在扩展中重写父类方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ArraySlice使用注意事项使用ArraySlice时，需要注意两点：
+                            Swift在扩展中重写父类方法Swift在类的extension中，如果想重写父类的方法，会有以下两个限制(不局限于这两个，可能还有其它)：
 
-ArraySlice会维持对原始数组的一个强引用，而不仅仅是它所表示的片断。这样即使原始数组对象的生命周期结束了，也可能无法释放。所以不建议长期存储ArraySl
+类本身必须是NSObject体系下的类，且要重写的方法的参数、返回值不能带有纯Swift的类/结
                         
                     </div>
                     <div class="publish-info">
@@ -654,20 +654,21 @@ ArraySlice会维持对原始数组的一个强引用，而不仅仅是它所表�
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/autolayout-theory/">
+                <a href="/2017/02/01/2017/2/swift-zhong-da-yin-xian-cheng-diao-yong-zhan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Autolayout Theory">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Swift中打印线程调用栈">
                         
-                        <span class="card-title">Autolayout Theory</span>
+                        <span class="card-title">Swift中打印线程调用栈</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Autolayout TheoryView hierarchy的layout可以定义为一系列的线性方程式。每个约束都表示一个方程式，大部分约束定义的是两个视图之间的关系，当然也可以是一个视图的两个不同的属性之间的关系，如高宽比。
-下图是文档
+                            Swift中打印线程调用栈在Swift 3中，如果想打印线程的调用栈，可以简单的使用Thread.callStackSymbols，如下代码所示：
+for symbol in Thread.callStackSymbols {
+    pr
                         
                     </div>
                     <div class="publish-info">

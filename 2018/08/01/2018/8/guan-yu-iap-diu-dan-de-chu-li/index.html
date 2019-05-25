@@ -553,20 +553,23 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2018/08/01/2018/8/zai-tan-shu-zu-ji-he-zi-dian-yu-hash-isequal-fang-fa-de-guan-lian/">
+                <a href="/2018/08/01/2018/8/qu-fen-sdwebimage-de-san-chong-huan-cun/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="再谈数组、集合、字典与 hash、isEqual 方法的关联">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="区分SDWebImage的三种缓存">
                         
-                        <span class="card-title">再谈数组、集合、字典与 hash、isEqual 方法的关联</span>
+                        <span class="card-title">区分SDWebImage的三种缓存</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            再谈数组、集合、字典与 hash、isEqual 方法的关联作者: halohily
-我们或多或少了解，Objective-C 中的 NSArray、NSSet、NSDictionary 与 NSObject 及其子类对象的 hash、is
+                            区分SDWebImage的三种缓存作者: 陈满iOS
+SDWebImage的三种缓存分为：内存图片缓存，磁盘图片缓存，内存操作缓存，步骤如下
+
+先查看内存图片缓存，内存图片缓存没有，后生成操作，查看磁盘图片缓存
+磁盘图片缓存有，就加载到内存
                         
                     </div>
                     <div class="publish-info">
@@ -576,7 +579,7 @@
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            halohily
+                            陈满iOS
                             
                         </span>
                     </div>
@@ -591,20 +594,20 @@
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/08/01/2018/8/shi-yong-keychain-cun-chu-deng-lu-tai-xu-yao-zhu-yi-de-yi-ge-keng/">
+                <a href="/2018/08/01/2018/8/bi-jiao-san-chong-wang-luo-kuang-jia-shang-chuan-tu-pian-guo-cheng-zhong-de-bu-tong-dian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="使用 Keychain 存储登录态需要注意的一个坑">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="比较三种网络框架上传图片过程中的不同点？">
                         
-                        <span class="card-title">使用 Keychain 存储登录态需要注意的一个坑</span>
+                        <span class="card-title">比较三种网络框架上传图片过程中的不同点？</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            使用 Keychain 存储登录态需要注意的一个坑作者: KANGZUBIN
-今天要讨论的这个问题你可能永远都不会遇到，而且绝大部分情况下你很难在开发中事先预料到它未来可能会发生，但是一旦不幸发生了，可能就是一个很严重的线上问题，惨痛教训。
+                            比较三种网络框架上传图片过程中的不同点？作者: 陈满iOS
+AFNetworking上传图片的步骤是利用图片设置到request的HTTPBodyStream中去，然后利用带有图片的request新建task上传。HYNetworking内
                         
                     </div>
                     <div class="publish-info">
@@ -614,7 +617,7 @@
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            KANGZUBIN
+                            陈满iOS
                             
                         </span>
                     </div>

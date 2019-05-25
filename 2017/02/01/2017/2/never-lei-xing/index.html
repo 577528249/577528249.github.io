@@ -581,25 +581,26 @@ public func fatalError(_ message: @auto">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/autolayout-theory/">
+                <a href="/2017/03/01/2017/3/core-animation-zhong-cpu-cao-zuo-de-ying-xiang-yin-su/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Autolayout Theory">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Core Animation中CPU操作的影响因素">
                         
-                        <span class="card-title">Autolayout Theory</span>
+                        <span class="card-title">Core Animation中CPU操作的影响因素</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Autolayout TheoryView hierarchy的layout可以定义为一系列的线性方程式。每个约束都表示一个方程式，大部分约束定义的是两个视图之间的关系，当然也可以是一个视图的两个不同的属性之间的关系，如高宽比。
-下图是文档
+                            Core Animation中CPU操作的影响因素Core Animation中CPU的操作在动画开始前执行，所以通常不会影响到动画的帧率，但是会影响到动画的开始。以下一些操作会延迟动画的开始时间：
+
+布局计算：这可以理解，视图越复杂，需要
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2017-02-01
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2017-03-01
                         </span>
                         <span class="publish-author">
                             
@@ -619,20 +620,23 @@ public func fatalError(_ message: @auto">
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/repeated-jie-gou-ti/">
+                <a href="/2017/02/01/2017/2/zi-ding-yi-cao-zuo-fu-zhong-de./">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Repeated结构体">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="自定义操作符中的.">
                         
-                        <span class="card-title">Repeated结构体</span>
+                        <span class="card-title">自定义操作符中的.</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Repeated结构体Swift提供了一个Repeated结构体，用于表示一个所有元素都相同的集合。我们可以使用repeatElement(_:count:)函数来创建Repeated集合，如下代码所示：
-let repeatedName 
+                            自定义操作符中的.在自定义操作符时，可以以dot(.)开头，这种情况下，操作符后面还可以包含其它的dot(.)，如下代码所示：
+infix operator .+.
+
+struct Vector2D {
+    var x: CGFloat
                         
                     </div>
                     <div class="publish-info">

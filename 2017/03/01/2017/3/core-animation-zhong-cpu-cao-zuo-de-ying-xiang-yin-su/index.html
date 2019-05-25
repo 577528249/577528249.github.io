@@ -558,21 +558,19 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/03/01/2017/3/swift-auto-diagram/">
+                <a href="/2017/03/01/2017/3/ios-10.3-yi-chu-keychain-zhong-de-shu-ju/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Swift auto diagram">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="iOS 10.3移除Keychain中的数据">
                         
-                        <span class="card-title">Swift auto diagram</span>
+                        <span class="card-title">iOS 10.3移除Keychain中的数据</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Swift auto diagramOmniGraffle无法绘制Swift的类图，只能再找个替代工具：swift auto diagram。这是一个ruby写的开源库。
-下载源码后，可以在工具所在目录下执行命令：
-ruby generat
+                            iOS 10.3移除Keychain中的数据从iOS 10.3(目前还是beta版本)开始，保存在keychain中的App相关的数据，会随着应用的删除而被清除，重新安装App后将无法再从keychain中获取应用相关的数据。而10.3之前
                         
                     </div>
                     <div class="publish-info">
@@ -597,23 +595,20 @@ ruby generat
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/zi-ding-yi-cao-zuo-fu-zhong-de./">
+                <a href="/2017/02/01/2017/2/never-lei-xing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="自定义操作符中的.">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Never类型">
                         
-                        <span class="card-title">自定义操作符中的.</span>
+                        <span class="card-title">Never类型</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            自定义操作符中的.在自定义操作符时，可以以dot(.)开头，这种情况下，操作符后面还可以包含其它的dot(.)，如下代码所示：
-infix operator .+.
-
-struct Vector2D {
-    var x: CGFloat
+                            Never类型之前有一条知识小集讲了可以用 @noreturn 用来修饰函数，以告诉编译器函数永远不返回值给调用方。如下代码是原来的fatalError的声明。
+public func fatalError(_ message: @auto
                         
                     </div>
                     <div class="publish-info">

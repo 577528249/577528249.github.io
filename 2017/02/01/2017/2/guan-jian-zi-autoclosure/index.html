@@ -580,22 +580,21 @@ var custo">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/ios-dong-hua-ying-yong-nei-chu-li-de-4-ge-jie-duan/">
+                <a href="/2017/02/01/2017/2/ios-dong-hua-zai-xi-tong-zhong-chu-li-de-2-ge-jie-duan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="iOS动画应用内处理的4个阶段">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="iOS动画在系统中处理的2个阶段">
                         
-                        <span class="card-title">iOS动画应用内处理的4个阶段</span>
+                        <span class="card-title">iOS动画在系统中处理的2个阶段</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            iOS动画应用内处理的4个阶段在iOS中，动画的执行主要分6个阶段，其中4个阶段是在应用内部处理的：
+                            iOS动画在系统中处理的2个阶段接上一条。打包的layer和动画发送到render server后，会被反序列化成render tree。Render server将对动画的每一帧执行以下两步操作：
 
-Layout: 这一阶段是准备好view/layer的层级结构并设置layer的属性；
-Display: 这一阶段将绘制layer的内容
+计算所有layer属性的中间值，并设置
                         
                     </div>
                     <div class="publish-info">
@@ -620,23 +619,21 @@ Display: 这一阶段将绘制layer的内容
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/duo-wei-xia-biao/">
+                <a href="/2017/02/01/2017/2/uninhabited-types/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="多维下标">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Uninhabited Types">
                         
-                        <span class="card-title">多维下标</span>
+                        <span class="card-title">Uninhabited Types</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            多维下标我们通常看到的下标操作都是一维的，不过如果有需要，我们可以定义多维的下标操作，如下代码所示：
-// 定义一个三维结构体
-struct Vector3D&lt;T: Equatable> {
-    var x: T
-    var
+                            Uninhabited TypesNever是一个空枚举，即没有有效的case。所以它是一种uninhabited type，即明显没有值的类型。Swift中，以下两种情况可以看成是uninhabited type：
+
+一个枚举类型，如果没
                         
                     </div>
                     <div class="publish-info">

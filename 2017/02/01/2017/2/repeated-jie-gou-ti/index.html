@@ -561,20 +561,23 @@ let repeatedName ">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/never-lei-xing/">
+                <a href="/2017/02/01/2017/2/zi-ding-yi-cao-zuo-fu-zhong-de./">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Never类型">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="自定义操作符中的.">
                         
-                        <span class="card-title">Never类型</span>
+                        <span class="card-title">自定义操作符中的.</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Never类型之前有一条知识小集讲了可以用 @noreturn 用来修饰函数，以告诉编译器函数永远不返回值给调用方。如下代码是原来的fatalError的声明。
-public func fatalError(_ message: @auto
+                            自定义操作符中的.在自定义操作符时，可以以dot(.)开头，这种情况下，操作符后面还可以包含其它的dot(.)，如下代码所示：
+infix operator .+.
+
+struct Vector2D {
+    var x: CGFloat
                         
                     </div>
                     <div class="publish-info">
@@ -599,21 +602,19 @@ public func fatalError(_ message: @auto
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/swift-compile-warning/">
+                <a href="/2017/02/01/2017/2/arrayslice-de-yong-tu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Swift Compile Warning">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="ArraySlice的用途">
                         
-                        <span class="card-title">Swift Compile Warning</span>
+                        <span class="card-title">ArraySlice的用途</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Swift Compile Warning在Swift中，我们通常会用FIXME/TODO/MARK来做一些注释标注，这些标注在代码的dropdown box中能显示出来，如下图所示：
-
-不过，如果我们标注的是一些警告或错误信息的话，这用方
+                            ArraySlice的用途Swift提供了ArraySlice来执行数组的切片操作。类似于其它语言中的切片(如Python)，ArraySlice对象复用了原始数组的存储结构，而不是新开辟一块内存区域来将数组片断的元素拷贝过来。因此，它能让
                         
                     </div>
                     <div class="publish-info">
