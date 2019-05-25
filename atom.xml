@@ -2,41 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>知识小集</title>
   
-  
+  <subtitle>知识小集</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-25T11:02:00.675Z</updated>
+  <updated>2019-05-25T11:01:08.640Z</updated>
   <id>http://yoursite.com/</id>
   
-  <author>
-    <name>John Doe</name>
-    
-  </author>
-  
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>点击cell不执行-[UITableView didSelectRowAtIndexPath:]方法的几种方式</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/dian-ji-cell-bu-zhi-xing-uitableview-de-didselectrowatindexpath-fang-fa-de-ji-chong-fang-shi/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/dian-ji-cell-bu-zhi-xing-uitableview-de-didselectrowatindexpath-fang-fa-de-ji-chong-fang-shi/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T11:02:00.675Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;点击cell不执行-UITableView-didSelectRowAtIndexPath-方法的几种方式&quot;&gt;&lt;a href=&quot;#点击cell不执行-UITableView-didSelectRowAtIndexPath-方法的几种方式&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>针对 objc_exception_throw 的实用调试技巧</title>
@@ -61,11 +34,11 @@
   </entry>
   
   <entry>
-    <title>在 UILabel 中渲染 HTML</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/</id>
+    <title>聊聊 iPad 适配</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/</id>
     <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T10:54:00.951Z</updated>
+    <updated>2019-05-25T11:02:56.362Z</updated>
     
     <summary type="html">
     
@@ -73,7 +46,29 @@
       
         
         
-          &lt;h2 id=&quot;在-UILabel-中渲染-HTML&quot;&gt;&lt;a href=&quot;#在-UILabel-中渲染-HTML&quot; class=&quot;headerlink&quot; title=&quot;在 UILabel 中渲染 HTML&quot;&gt;&lt;/a&gt;在 UILabel 中渲染
+          &lt;h2 id=&quot;聊聊-iPad-适配&quot;&gt;&lt;a href=&quot;#聊聊-iPad-适配&quot; class=&quot;headerlink&quot; title=&quot;聊聊 iPad 适配&quot;&gt;&lt;/a&gt;聊聊 iPad 适配&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;: &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>点击cell不执行-[UITableView didSelectRowAtIndexPath:]方法的几种方式</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/dian-ji-cell-bu-zhi-xing-uitableview-de-didselectrowatindexpath-fang-fa-de-ji-chong-fang-shi/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/dian-ji-cell-bu-zhi-xing-uitableview-de-didselectrowatindexpath-fang-fa-de-ji-chong-fang-shi/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:02:00.675Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;点击cell不执行-UITableView-didSelectRowAtIndexPath-方法的几种方式&quot;&gt;&lt;a href=&quot;#点击cell不执行-UITableView-didSelectRowAtIndexPath-方法的几种方式&quot;
         
       
     
@@ -127,28 +122,6 @@
   </entry>
   
   <entry>
-    <title>Xcode更新输入账号密码，账号却不是自己的</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T10:55:08.041Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;Xcode更新输入账号密码，账号却不是自己的&quot;&gt;&lt;a href=&quot;#Xcode更新输入账号密码，账号却不是自己的&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>iOS App 异常捕获相互覆盖问题</title>
     <link href="http://yoursite.com/2019/01/01/2019/1/ios-app-yi-chang-bu-huo-xiang-hu-fu-gai-wen-ti/"/>
     <id>http://yoursite.com/2019/01/01/2019/1/ios-app-yi-chang-bu-huo-xiang-hu-fu-gai-wen-ti/</id>
@@ -171,11 +144,11 @@
   </entry>
   
   <entry>
-    <title>This block declaration is not a prototype 编译警告处理</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/this-block-declaration-is-not-a-prototype-bian-yi-jing-gao-chu-li/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/this-block-declaration-is-not-a-prototype-bian-yi-jing-gao-chu-li/</id>
+    <title>Xcode更新输入账号密码，账号却不是自己的</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/</id>
     <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T10:55:40.800Z</updated>
+    <updated>2019-05-25T10:55:08.041Z</updated>
     
     <summary type="html">
     
@@ -183,51 +156,7 @@
       
         
         
-          &lt;h2 id=&quot;This-block-declaration-is-not-a-prototype-编译警告处理&quot;&gt;&lt;a href=&quot;#This-block-declaration-is-not-a-prototype-编译警告处理&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Swift 中实现 synchronized</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/swift-zhong-shi-xian-synchronized/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/swift-zhong-shi-xian-synchronized/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T11:01:43.825Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;Swift-中实现-synchronized&quot;&gt;&lt;a href=&quot;#Swift-中实现-synchronized&quot; class=&quot;headerlink&quot; title=&quot;Swift 中实现 synchronized&quot;&gt;&lt;/a&gt;Swift 中实现
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>NSScanner 过滤字符串</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/nsscanner-guo-lu-zi-fu-chuan/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/nsscanner-guo-lu-zi-fu-chuan/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T11:02:40.303Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;NSScanner-过滤字符串&quot;&gt;&lt;a href=&quot;#NSScanner-过滤字符串&quot; class=&quot;headerlink&quot; title=&quot;NSScanner 过滤字符串&quot;&gt;&lt;/a&gt;NSScanner
+          &lt;h2 id=&quot;Xcode更新输入账号密码，账号却不是自己的&quot;&gt;&lt;a href=&quot;#Xcode更新输入账号密码，账号却不是自己的&quot; class=&quot;headerlink&quot;
         
       
     
@@ -259,6 +188,72 @@
   </entry>
   
   <entry>
+    <title>This block declaration is not a prototype 编译警告处理</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/this-block-declaration-is-not-a-prototype-bian-yi-jing-gao-chu-li/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/this-block-declaration-is-not-a-prototype-bian-yi-jing-gao-chu-li/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:55:40.800Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;This-block-declaration-is-not-a-prototype-编译警告处理&quot;&gt;&lt;a href=&quot;#This-block-declaration-is-not-a-prototype-编译警告处理&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NSScanner 过滤字符串</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/nsscanner-guo-lu-zi-fu-chuan/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/nsscanner-guo-lu-zi-fu-chuan/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:02:40.303Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;NSScanner-过滤字符串&quot;&gt;&lt;a href=&quot;#NSScanner-过滤字符串&quot; class=&quot;headerlink&quot; title=&quot;NSScanner 过滤字符串&quot;&gt;&lt;/a&gt;NSScanner
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Swift 中实现 synchronized</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/swift-zhong-shi-xian-synchronized/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/swift-zhong-shi-xian-synchronized/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:01:43.825Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Swift-中实现-synchronized&quot;&gt;&lt;a href=&quot;#Swift-中实现-synchronized&quot; class=&quot;headerlink&quot; title=&quot;Swift 中实现 synchronized&quot;&gt;&lt;/a&gt;Swift 中实现
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Framework 中混合编程时 umbrella header 设置注意事项</title>
     <link href="http://yoursite.com/2019/01/01/2019/1/framework-zhong-hun-he-bian-cheng-shi-umbrella-header-she-zhi-zhu-yi-shi-xiang/"/>
     <id>http://yoursite.com/2019/01/01/2019/1/framework-zhong-hun-he-bian-cheng-shi-umbrella-header-she-zhi-zhu-yi-shi-xiang/</id>
@@ -272,6 +267,28 @@
         
         
           &lt;h2 id=&quot;Framework-中混合编程时-umbrella-header-设置注意事项&quot;&gt;&lt;a href=&quot;#Framework-中混合编程时-umbrella-header-设置注意事项&quot; class=&quot;headerlink&quot; title=&quot;Framework
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Debug Memory Graph检查内存泄漏</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/debug-memory-graph-jian-cha-nei-cun-xie-lou/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/debug-memory-graph-jian-cha-nei-cun-xie-lou/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:54:40.671Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Debug-Memory-Graph检查内存泄漏&quot;&gt;&lt;a href=&quot;#Debug-Memory-Graph检查内存泄漏&quot; class=&quot;headerlink&quot; title=&quot;Debug Memory Graph检查内存泄漏&quot;&gt;&lt;/a&gt;Debug Memory
         
       
     
@@ -325,11 +342,11 @@
   </entry>
   
   <entry>
-    <title>Debug Memory Graph检查内存泄漏</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/debug-memory-graph-jian-cha-nei-cun-xie-lou/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/debug-memory-graph-jian-cha-nei-cun-xie-lou/</id>
+    <title>在 UILabel 中渲染 HTML</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/</id>
     <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T10:54:40.671Z</updated>
+    <updated>2019-05-25T10:54:00.951Z</updated>
     
     <summary type="html">
     
@@ -337,29 +354,7 @@
       
         
         
-          &lt;h2 id=&quot;Debug-Memory-Graph检查内存泄漏&quot;&gt;&lt;a href=&quot;#Debug-Memory-Graph检查内存泄漏&quot; class=&quot;headerlink&quot; title=&quot;Debug Memory Graph检查内存泄漏&quot;&gt;&lt;/a&gt;Debug Memory
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>聊聊 iPad 适配</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T11:02:56.362Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;聊聊-iPad-适配&quot;&gt;&lt;a href=&quot;#聊聊-iPad-适配&quot; class=&quot;headerlink&quot; title=&quot;聊聊 iPad 适配&quot;&gt;&lt;/a&gt;聊聊 iPad 适配&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;: &lt;a
+          &lt;h2 id=&quot;在-UILabel-中渲染-HTML&quot;&gt;&lt;a href=&quot;#在-UILabel-中渲染-HTML&quot; class=&quot;headerlink&quot; title=&quot;在 UILabel 中渲染 HTML&quot;&gt;&lt;/a&gt;在 UILabel 中渲染
         
       
     
@@ -435,11 +430,11 @@
   </entry>
   
   <entry>
-    <title>关于IAP丢单的处理</title>
-    <link href="http://yoursite.com/2018/08/01/2018/8/guan-yu-iap-diu-dan-de-chu-li/"/>
-    <id>http://yoursite.com/2018/08/01/2018/8/guan-yu-iap-diu-dan-de-chu-li/</id>
+    <title>再谈数组、集合、字典与 hash、isEqual 方法的关联</title>
+    <link href="http://yoursite.com/2018/08/01/2018/8/zai-tan-shu-zu-ji-he-zi-dian-yu-hash-isequal-fang-fa-de-guan-lian/"/>
+    <id>http://yoursite.com/2018/08/01/2018/8/zai-tan-shu-zu-ji-he-zi-dian-yu-hash-isequal-fang-fa-de-guan-lian/</id>
     <published>2018-07-31T16:00:00.000Z</published>
-    <updated>2019-05-25T10:50:56.003Z</updated>
+    <updated>2019-05-25T10:50:42.431Z</updated>
     
     <summary type="html">
     
@@ -447,7 +442,7 @@
       
         
         
-          &lt;h2 id=&quot;关于IAP丢单的处理&quot;&gt;&lt;a href=&quot;#关于IAP丢单的处理&quot; class=&quot;headerlink&quot; title=&quot;关于IAP丢单的处理&quot;&gt;&lt;/a&gt;关于IAP丢单的处理&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;: &lt;a
+          &lt;h2 id=&quot;再谈数组、集合、字典与-hash、isEqual-方法的关联&quot;&gt;&lt;a href=&quot;#再谈数组、集合、字典与-hash、isEqual-方法的关联&quot; class=&quot;headerlink&quot; title=&quot;再谈数组、集合、字典与 hash、isEqual
         
       
     

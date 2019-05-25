@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="">
+<html lang="zh-CN">
 
 
 <head><meta name="generator" content="Hexo 3.8.0">
@@ -80,7 +80,7 @@
     
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-            <i id="searchIcon" class="fa fa-search" title="Search"></i>
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
         </a>
     </li>
 </ul>
@@ -94,7 +94,7 @@
         <div class="logo-name">知识小集</div>
         <div class="logo-desc">
             
-            Never really desperate, only the lost of the soul.
+            从来没有真正的绝境，只有心灵的迷途
             
         </div>
     </div>
@@ -321,7 +321,7 @@
                 <div class="col s7">
                     
                           <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            <span class="chip bg-color">无标签</span>
                           </div>
                     
                 </div>
@@ -332,7 +332,7 @@
 
             <div class="post-info">
                 <div class="post-date info-break-policy">
-                    <i class="fa fa-calendar-minus-o fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
                     2018-04-01
                 </div>
 
@@ -340,7 +340,7 @@
 				
 				
                     <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="fa fa-eye fa-fw"></i>Read Count:&nbsp;&nbsp;
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
                         <span id="busuanzi_value_page_pv"></span>
                     </div>
 				
@@ -491,7 +491,7 @@
 
 <div id="article-share">
     
-    <div class="social-share" data-disabled="qzone, qq, weibo, douban"></div>
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
     
 </div>
 
@@ -502,30 +502,30 @@
     <div class="reprint" id="reprint-statement">
         <p class="reprint-tip">
             <i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;
-            <span>Reprint policy</span>
+            <span>转载规则</span>
         </p>
         
             <div class="center-align">
-                <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+                <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh">
                     <img alt style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png">
                 </a>
             </div>
             <br>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">
                     《水平或者竖直布局方案》
-                </span> by
+                </span> 由
             <a xmlns:cc="http://creativecommons.org/ns#" href="/2018/04/01/2018/4/shui-ping-huo-zhe-shu-zhi-bu-ju-fang-an/" property="cc:attributionName" rel="cc:attributionURL">
                 高老师很忙
-            </a> is licensed under a
-            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
-                Creative Commons Attribution 4.0 International License
-            </a> 
+            </a> 采用
+            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh">
+                知识共享署名 4.0 国际许可协议
+            </a>进行许可。
         
     </div>
 
     <script async defer>
       document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
         M.toast({html: toastHTML})
       });
 
@@ -555,23 +555,22 @@
         
         <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2018/04/01/2018/4/rang-shi-qu-jiao-dian-de-uiwebview-dan-chu-jian-pan-de-fang-fa/">
+                <a href="/2018/04/01/2018/4/shuo-shuo-nstimer-de-xin-api/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="让失去焦点的 UIWebView 弹出键盘的方法">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="说说 NSTimer 的新 API">
                         
-                        <span class="card-title">让失去焦点的 UIWebView 弹出键盘的方法</span>
+                        <span class="card-title">说说 NSTimer 的新 API</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            让失去焦点的 UIWebView 弹出键盘的方法
-作者: 折腾范儿_味精
-UIWebView 无法靠代码的方式让失去焦点的 webview 弹出键盘，必须人主动点击 webview，代码 becomefirstresponder 无效。这个
+                            说说 NSTimer 的新 API作者: halohily
+在以往的 iOS 版本中，我们为了避免 NSTimer 的循环引用问题，一个比较常用的解决办法是为 NSTimer 添加一个 category，新增传入 block 类型参数的接口
                         
                     </div>
                     <div class="publish-info">
@@ -581,7 +580,7 @@ UIWebView 无法靠代码的方式让失去焦点的 webview 弹出键盘，必�
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            折腾范儿_味精
+                            halohily
                             
                         </span>
                     </div>
@@ -593,7 +592,7 @@ UIWebView 无法靠代码的方式让失去焦点的 webview 弹出键盘，必�
         
         <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fa fa-chevron-right"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2018/04/01/2018/4/mo-kuai-hua-dai-lai-de-tong-zhi-mo-kuai-zhi-jian-de-shu-ju-tong-bu/">
@@ -638,7 +637,7 @@ PM：这一版本做一个下载功能，包含我的下载，待下载，正在
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
             <div id="toc-content"></div>
         </div>
     </div>
@@ -783,8 +782,8 @@ PM：这一版本做一个下载功能，包含我的下载，待下载，正在
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;Search</span>
-            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword" class="search-input">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input">
         </div>
         <div id="searchResult"></div>
     </div>
