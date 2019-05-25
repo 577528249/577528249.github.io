@@ -561,19 +561,23 @@ Traits主要是依赖于Injection的代码注入功能来实现实时更新。�
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/01/01/2017/1/tagged-pointer/">
+                <a href="/2017/01/01/2017/1/filter-yu-flatmap-guo-lu-nil/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Tagged-Pointer">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="filter与flatMap过滤nil">
                         
-                        <span class="card-title">Tagged-Pointer</span>
+                        <span class="card-title">filter与flatMap过滤nil</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Tagged-Pointer苹果在64位ARM架构下，对NSNumber等小对象对象的存储做了优化，即使用Tagged Pointer技术。通过使用这种技术，NSNumber指针变量指向的值不再是单独存储在一块内存中，而是对指针本身做了特殊
+                            filter与flatMap过滤nil使用高阶函数过滤一个数组中的nil可以有两种方法：filter和flatMap。
+filter方法如下代码所示：
+let array: [Int?] = [1, 2, 3, 5, nil, 9]
+
+le
                         
                     </div>
                     <div class="publish-info">
@@ -598,23 +602,19 @@ Traits主要是依赖于Injection的代码注入功能来实现实时更新。�
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/01/01/2017/1/filter-yu-flatmap-guo-lu-nil/">
+                <a href="/2017/01/01/2017/1/tagged-pointer/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="filter与flatMap过滤nil">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Tagged-Pointer">
                         
-                        <span class="card-title">filter与flatMap过滤nil</span>
+                        <span class="card-title">Tagged-Pointer</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            filter与flatMap过滤nil使用高阶函数过滤一个数组中的nil可以有两种方法：filter和flatMap。
-filter方法如下代码所示：
-let array: [Int?] = [1, 2, 3, 5, nil, 9]
-
-le
+                            Tagged-Pointer苹果在64位ARM架构下，对NSNumber等小对象对象的存储做了优化，即使用Tagged Pointer技术。通过使用这种技术，NSNumber指针变量指向的值不再是单独存储在一块内存中，而是对指针本身做了特殊
                         
                     </div>
                     <div class="publish-info">

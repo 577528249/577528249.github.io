@@ -618,20 +618,25 @@ static NSNotificationName const kSystemVolumeDidChangeNotification = @"AVSystemC
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2018/05/01/2018/5/bei-da-jia-hu-lue-de-uiviewcontroller-liang-dui-api/">
+                <a href="/2018/05/01/2018/5/dui-jian-bian-shi-tu-de-shi-xian-fang-an-de-tan-jiu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="被大家忽略的UIViewController两对API">
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="对渐变视图的实现方案的探究">
                         
-                        <span class="card-title">被大家忽略的UIViewController两对API</span>
+                        <span class="card-title">对渐变视图的实现方案的探究</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            被大家忽略的UIViewController两对API作者: 高老师很忙
-在某个页面被pop或者dismissViewController的时候，需要执行某个操作，大家会怎么做呢？swizzle dealloc方法？这样做是没有问题的；其实
+                            对渐变视图的实现方案的探究作者: 高老师很忙
+如果想实现一个蓝色到绿色的渐变视图，大家会有怎样的方案呢？
+
+首先我想到的是CAGradientLayer来实现，效果如下图：
+
+
+看着效果还可以，需要注意的是如果想均匀过度就不要去设置loca
                         
                     </div>
                     <div class="publish-info">
@@ -656,25 +661,20 @@ static NSNotificationName const kSystemVolumeDidChangeNotification = @"AVSystemC
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/05/01/2018/5/dui-jian-bian-shi-tu-de-shi-xian-fang-an-de-tan-jiu/">
+                <a href="/2018/05/01/2018/5/bei-da-jia-hu-lue-de-uiviewcontroller-liang-dui-api/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="对渐变视图的实现方案的探究">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="被大家忽略的UIViewController两对API">
                         
-                        <span class="card-title">对渐变视图的实现方案的探究</span>
+                        <span class="card-title">被大家忽略的UIViewController两对API</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            对渐变视图的实现方案的探究作者: 高老师很忙
-如果想实现一个蓝色到绿色的渐变视图，大家会有怎样的方案呢？
-
-首先我想到的是CAGradientLayer来实现，效果如下图：
-
-
-看着效果还可以，需要注意的是如果想均匀过度就不要去设置loca
+                            被大家忽略的UIViewController两对API作者: 高老师很忙
+在某个页面被pop或者dismissViewController的时候，需要执行某个操作，大家会怎么做呢？swizzle dealloc方法？这样做是没有问题的；其实
                         
                     </div>
                     <div class="publish-info">

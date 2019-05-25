@@ -558,19 +558,21 @@ Display: 这一阶段将绘制layer的内容">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/swift-rawrepresentable/">
+                <a href="/2017/02/01/2017/2/ios-dong-hua-zai-xi-tong-zhong-chu-li-de-2-ge-jie-duan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Swift RawRepresentable">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="iOS动画在系统中处理的2个阶段">
                         
-                        <span class="card-title">Swift RawRepresentable</span>
+                        <span class="card-title">iOS动画在系统中处理的2个阶段</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Swift RawRepresentableSwift编译器自动为带有raw type的enum添加了RawRepresentable协议的实现。RawRepresentable协议的定义如代码清单11-1-1所示，它可以为某个类型定义一个
+                            iOS动画在系统中处理的2个阶段接上一条。打包的layer和动画发送到render server后，会被反序列化成render tree。Render server将对动画的每一帧执行以下两步操作：
+
+计算所有layer属性的中间值，并设置
                         
                     </div>
                     <div class="publish-info">
@@ -595,20 +597,23 @@ Display: 这一阶段将绘制layer的内容">
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/02/01/2017/2/never-lei-xing/">
+                <a href="/2017/02/01/2017/2/guan-jian-zi-autoclosure/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Never类型">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="关键字autoclosure">
                         
-                        <span class="card-title">Never类型</span>
+                        <span class="card-title">关键字autoclosure</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Never类型之前有一条知识小集讲了可以用 @noreturn 用来修饰函数，以告诉编译器函数永远不返回值给调用方。如下代码是原来的fatalError的声明。
-public func fatalError(_ message: @auto
+                            @autoclosureSwift中的@autoclosure还是一个很有意思的属性，它用于修饰函数中的闭包类型的参数，它主要有两个作用：
+
+将一个表达式自动封装成一个闭包，从而简化函数/方法的调用方式，如下代码所示；
+
+var custo
                         
                     </div>
                     <div class="publish-info">

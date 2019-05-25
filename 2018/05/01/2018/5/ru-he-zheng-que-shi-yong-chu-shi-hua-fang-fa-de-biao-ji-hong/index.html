@@ -594,20 +594,20 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2018/05/01/2018/5/ru-he-chong-xie-zi-ding-yi-dui-xiang-de-hash-fang-fa/">
+                <a href="/2018/05/01/2018/5/ru-he-dui-nsmutablearray-jin-xing-kvo/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="如何重写自定义对象的 hash 方法">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="如何对NSMutableArray进行KVO">
                         
-                        <span class="card-title">如何重写自定义对象的 hash 方法</span>
+                        <span class="card-title">如何对NSMutableArray进行KVO</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            如何重写自定义对象的 hash 方法作者: halohily
-hash 是 NSObject 协议中定义的一个属性，也就是说，任何一个 NSObject 的子类都会有 hash 方法（对应属性的 getter，下文称哈希方法）。一般情况下，
+                            如何对NSMutableArray进行KVO作者: halohily
+我们知道，iOS 中 KVO (key-value-observing) 的原理，简单来说就是重写了被观察属性的 set 方法。自然，一般情况下只有通过调用 set 方法
                         
                     </div>
                     <div class="publish-info">
@@ -632,20 +632,20 @@ hash 是 NSObject 协议中定义的一个属性，也就是说，任何一个 N
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/05/01/2018/5/ru-he-dui-nsmutablearray-jin-xing-kvo/">
+                <a href="/2018/05/01/2018/5/ni-de-bian-li-fang-fa-yong-dui-autoreleasepool-liao-me/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="如何对NSMutableArray进行KVO">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="你的遍历方法用对@autoreleasepool了么">
                         
-                        <span class="card-title">如何对NSMutableArray进行KVO</span>
+                        <span class="card-title">你的遍历方法用对@autoreleasepool了么</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            如何对NSMutableArray进行KVO作者: halohily
-我们知道，iOS 中 KVO (key-value-observing) 的原理，简单来说就是重写了被观察属性的 set 方法。自然，一般情况下只有通过调用 set 方法
+                            你的遍历方法用对@autoreleasepool了么作者: 高老师很忙
+在每次遍历的时候生成了很多占内存大的对象，如果交于默认的autoreleasepool去管理生命周期，会有因为内存飙升产生crash的风险，这个时候我们就需要手动控制这
                         
                     </div>
                     <div class="publish-info">
@@ -655,7 +655,7 @@ hash 是 NSObject 协议中定义的一个属性，也就是说，任何一个 N
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            halohily
+                            高老师很忙
                             
                         </span>
                     </div>

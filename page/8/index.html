@@ -239,21 +239,22 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/02/01/2017/2/autolayout-theory/">
+                    <a href="/2017/02/01/2017/2/ios-dong-hua-zai-xi-tong-zhong-chu-li-de-2-ge-jie-duan/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Autolayout Theory">
+                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="iOS动画在系统中处理的2个阶段">
                             
-                            <span class="card-title">Autolayout Theory</span>
+                            <span class="card-title">iOS动画在系统中处理的2个阶段</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                Autolayout TheoryView hierarchy的layout可以定义为一系列的线性方程式。每个约束都表示一个方程式，大部分约束定义的是两个视图之间的关系，当然也可以是一个视图的两个不同的属性之间的关系，如高宽比。
-下图是文档
+                                iOS动画在系统中处理的2个阶段接上一条。打包的layer和动画发送到render server后，会被反序列化成render tree。Render server将对动画的每一帧执行以下两步操作：
+
+计算所有layer属性的中间值，并设置
                             
                         </div>
                         <div class="publish-info">
@@ -275,20 +276,23 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/02/01/2017/2/arrayslice-de-yong-tu/">
+                    <a href="/2017/02/01/2017/2/ios-dong-hua-ying-yong-nei-chu-li-de-4-ge-jie-duan/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="ArraySlice的用途">
+                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="iOS动画应用内处理的4个阶段">
                             
-                            <span class="card-title">ArraySlice的用途</span>
+                            <span class="card-title">iOS动画应用内处理的4个阶段</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                ArraySlice的用途Swift提供了ArraySlice来执行数组的切片操作。类似于其它语言中的切片(如Python)，ArraySlice对象复用了原始数组的存储结构，而不是新开辟一块内存区域来将数组片断的元素拷贝过来。因此，它能让
+                                iOS动画应用内处理的4个阶段在iOS中，动画的执行主要分6个阶段，其中4个阶段是在应用内部处理的：
+
+Layout: 这一阶段是准备好view/layer的层级结构并设置layer的属性；
+Display: 这一阶段将绘制layer的内容
                             
                         </div>
                         <div class="publish-info">
@@ -310,22 +314,63 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/02/01/2017/2/arrayslice-shi-yong-zhu-yi-shi-xiang/">
+                    <a href="/2017/02/01/2017/2/guan-jian-zi-autoclosure/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ArraySlice使用注意事项">
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="关键字autoclosure">
                             
-                            <span class="card-title">ArraySlice使用注意事项</span>
+                            <span class="card-title">关键字autoclosure</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                ArraySlice使用注意事项使用ArraySlice时，需要注意两点：
+                                @autoclosureSwift中的@autoclosure还是一个很有意思的属性，它用于修饰函数中的闭包类型的参数，它主要有两个作用：
 
-ArraySlice会维持对原始数组的一个强引用，而不仅仅是它所表示的片断。这样即使原始数组对象的生命周期结束了，也可能无法释放。所以不建议长期存储ArraySl
+将一个表达式自动封装成一个闭包，从而简化函数/方法的调用方式，如下代码所示；
+
+var custo
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-02-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                知识小集成员
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2017/02/01/2017/2/duo-wei-xia-biao/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="多维下标">
+                            
+                            <span class="card-title">多维下标</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                多维下标我们通常看到的下标操作都是一维的，不过如果有需要，我们可以定义多维的下标操作，如下代码所示：
+// 定义一个三维结构体
+struct Vector3D&lt;T: Equatable> {
+    var x: T
+    var
                             
                         </div>
                         <div class="publish-info">
@@ -456,24 +501,20 @@ Mirror(r
             
             <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/02/01/2017/2/zi-ding-yi-cao-zuo-fu-zhong-de./">
+                    <a href="/2017/02/01/2017/2/arrayslice-de-yong-tu/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="自定义操作符中的.">
+                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="ArraySlice的用途">
                             
-                            <span class="card-title">自定义操作符中的.</span>
+                            <span class="card-title">ArraySlice的用途</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                自定义操作符中的.在自定义操作符时，可以以dot(.)开头，这种情况下，操作符后面还可以包含其它的dot(.)，如下代码所示：
-infix operator .+.
-
-struct Vector2D {
-    var x: CGFloat
+                                ArraySlice的用途Swift提供了ArraySlice来执行数组的切片操作。类似于其它语言中的切片(如Python)，ArraySlice对象复用了原始数组的存储结构，而不是新开辟一块内存区域来将数组片断的元素拷贝过来。因此，它能让
                             
                         </div>
                         <div class="publish-info">
@@ -495,27 +536,246 @@ struct Vector2D {
             
             <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/02/01/2017/2/ios-dong-hua-zai-xi-tong-zhong-chu-li-de-2-ge-jie-duan/">
+                    <a href="/2017/01/01/2017/1/lu-jing-tian-chong-gui-ze/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="iOS动画在系统中处理的2个阶段">
+                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="路径填充规则">
                             
-                            <span class="card-title">iOS动画在系统中处理的2个阶段</span>
+                            <span class="card-title">路径填充规则</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                iOS动画在系统中处理的2个阶段接上一条。打包的layer和动画发送到render server后，会被反序列化成render tree。Render server将对动画的每一帧执行以下两步操作：
+                                路径填充规则Quartz在填充区域时有两套规则：非零缠绕数规则(nonzero windingnumber rule)和偶数-奇数规则(Even-odd)。
 
-计算所有layer属性的中间值，并设置
+非零缠绕数规则：为了确定一个点是否需要绘制，我们从该点开始绘制一条直线穿过绘图的
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-02-01
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                知识小集成员
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2017/01/01/2017/1/static-fang-fa-yu-class-fang-fa-de-qu-bie/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Swift中lazy作惰性求值static方法与class方法的区别">
+                            
+                            <span class="card-title">Swift中lazy作惰性求值static方法与class方法的区别</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                static方法与class方法的区别在Swift中，static和class这两个关键字都可以修饰类的方法，以表明这个方法是一个类方法。不过这两者稍微有一些区别：class修饰的类方法可以被子类重写，而static修饰的类方法则不能。如下
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                知识小集成员
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2017/01/01/2017/1/typealias-fan-xing-bi-bao/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="typealias泛型闭包">
+                            
+                            <span class="card-title">typealias泛型闭包</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                typealias泛型闭包在Swift中我们可以用typealias来为已经存在的类型重新定义名字的,通过命名可以使代码变得更加清晰。当然也可以给闭包类型定义一个新名字，给带有泛型的闭包重新定义名字的方式如下代码所示：
+typealias 
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                知识小集成员
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2017/01/01/2017/1/filter-yu-flatmap-guo-lu-nil/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="filter与flatMap过滤nil">
+                            
+                            <span class="card-title">filter与flatMap过滤nil</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                filter与flatMap过滤nil使用高阶函数过滤一个数组中的nil可以有两种方法：filter和flatMap。
+filter方法如下代码所示：
+let array: [Int?] = [1, 2, 3, 5, nil, 9]
+
+le
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                知识小集成员
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2017/01/01/2017/1/traits/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Traits">
+                            
+                            <span class="card-title">Traits</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                TraitsTraits是一个可以实现实时更新代码，而不需要重新运行程序就可以看到效果的库，效果如下图所示，源码地址在这里。
+
+Traits主要是依赖于Injection的代码注入功能来实现实时更新。它可以是在代码中更新视图对象的属性，也可
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                知识小集成员
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2017/01/01/2017/1/tagged-pointer/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Tagged-Pointer">
+                            
+                            <span class="card-title">Tagged-Pointer</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Tagged-Pointer苹果在64位ARM架构下，对NSNumber等小对象对象的存储做了优化，即使用Tagged Pointer技术。通过使用这种技术，NSNumber指针变量指向的值不再是单独存储在一块内存中，而是对指针本身做了特殊
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                知识小集成员
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2017/01/01/2017/1/swift-de-stride-cao-zuo/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Swift中lazy作惰性求值">
+                            
+                            <span class="card-title">Swift中lazy作惰性求值</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Swift中lazy作惰性求值函数式编程中有惰性求值的概念，即一次计算在真正需要时才执行，尽可能推迟求解表达式。
+假如我们有一个数组，我们对每个元素作element*2的map操作，获取其中某一个元素，我们会如下代码处理:
+let arra
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
                             </span>
                             <span class="publish-author">
                                 
@@ -568,58 +828,20 @@ let setInt: (Int,
             
             <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/01/01/2017/1/swift-zhong-lazy-zuo-duo-xing-qiu-zhi/">
+                    <a href="/2017/01/01/2017/1/swift-zhong-de-escaping-closure/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Swift的stride操作">
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Swift中的escaping-closure">
                             
-                            <span class="card-title">Swift的stride操作</span>
+                            <span class="card-title">Swift中的escaping-closure</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                Swift的stride操作在Swift中，如果我们想创建一个一定步长的数组，可以如下代码操作：
-var array: [Double] = []
-for value in 0..&lt;10 {
-    array.append(Doub
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                知识小集成员
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2017/01/01/2017/1/swift3-yi-chu-var-guan-jian-zi/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Swift3移除var关键字">
-                            
-                            <span class="card-title">Swift3移除var关键字</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Swift3移除var关键字Swift 3中移除了函数参数中的var关键字，swift proposals SE-0003中的观点是var标记的参数只是本地复本会变化，不会回传给原始值，因此调用者并不会知道参数值的改变，实际上没有太大的实用
+                                Swift中的escaping-closure在Swift中使用@escaping来修饰一个逃逸闭包(Escaping Closures)，即闭包作为参数传到一个函数中时，这个闭包可以不在函数中调用，而在函数返回之后的某个时间再调用。如可以
                             
                         </div>
                         <div class="publish-info">
@@ -655,6 +877,41 @@ for value in 0..&lt;10 {
                         <div class="summary block-with-text">
                             
                                 Swift3移除Optional类型的比较操作Swift 3已经移除了Optional类型的比较操作，这在Swift evolution SE-0121: Remove Optional Comparison Operators这条中明确了
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                知识小集成员
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2017/01/01/2017/1/swift3-yi-chu-var-guan-jian-zi/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Swift3移除var关键字">
+                            
+                            <span class="card-title">Swift3移除var关键字</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Swift3移除var关键字Swift 3中移除了函数参数中的var关键字，swift proposals SE-0003中的观点是var标记的参数只是本地复本会变化，不会回传给原始值，因此调用者并不会知道参数值的改变，实际上没有太大的实用
                             
                         </div>
                         <div class="publish-info">
@@ -783,41 +1040,6 @@ var
             
             <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/01/01/2017/1/injection-dai-ma-zhu-ru/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Injection代码注入">
-                            
-                            <span class="card-title">Injection代码注入</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Injection代码注入Injection是johnno开发的一个Xcode插件，允许我们将代码实现更快注入到模拟器运行的程序或macOS程序。原先可以通过Alcatraz安装到Xcode中，不过现在是独立的App了。可以在这里下载安装。
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                知识小集成员
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
-                <div class="card">
                     <a href="/2017/01/01/2017/1/nsrecursivelock.lock/">
                         <div class="card-image">
                             
@@ -853,20 +1075,58 @@ var
             
             <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/01/01/2017/1/swift-zhong-de-escaping-closure/">
+                    <a href="/2017/01/01/2017/1/injection-dai-ma-zhu-ru/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Swift中的escaping-closure">
+                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Injection代码注入">
                             
-                            <span class="card-title">Swift中的escaping-closure</span>
+                            <span class="card-title">Injection代码注入</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                Swift中的escaping-closure在Swift中使用@escaping来修饰一个逃逸闭包(Escaping Closures)，即闭包作为参数传到一个函数中时，这个闭包可以不在函数中调用，而在函数返回之后的某个时间再调用。如可以
+                                Injection代码注入Injection是johnno开发的一个Xcode插件，允许我们将代码实现更快注入到模拟器运行的程序或macOS程序。原先可以通过Alcatraz安装到Xcode中，不过现在是独立的App了。可以在这里下载安装。
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-user fa-fw"></i>
+                                知识小集成员
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2017/01/01/2017/1/extension-selector/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Extension-Selector">
+                            
+                            <span class="card-title">Extension-Selector</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Extension-Selector在Swift中，我们可以使用#selector设置target-action模式中的action操作，如下代码所示：
+class ViewController: UIViewController {
+
+ 
                             
                         </div>
                         <div class="publish-info">
@@ -926,279 +1186,23 @@ array.contains(10)
             
             <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2017/01/01/2017/1/swift-de-stride-cao-zuo/">
+                    <a href="/2017/01/01/2017/1/swift-zhong-lazy-zuo-duo-xing-qiu-zhi/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Swift中lazy作惰性求值">
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Swift的stride操作">
                             
-                            <span class="card-title">Swift中lazy作惰性求值</span>
+                            <span class="card-title">Swift的stride操作</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                Swift中lazy作惰性求值函数式编程中有惰性求值的概念，即一次计算在真正需要时才执行，尽可能推迟求解表达式。
-假如我们有一个数组，我们对每个元素作element*2的map操作，获取其中某一个元素，我们会如下代码处理:
-let arra
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                知识小集成员
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2017/01/01/2017/1/tagged-pointer/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Tagged-Pointer">
-                            
-                            <span class="card-title">Tagged-Pointer</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Tagged-Pointer苹果在64位ARM架构下，对NSNumber等小对象对象的存储做了优化，即使用Tagged Pointer技术。通过使用这种技术，NSNumber指针变量指向的值不再是单独存储在一块内存中，而是对指针本身做了特殊
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                知识小集成员
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2017/01/01/2017/1/traits/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Traits">
-                            
-                            <span class="card-title">Traits</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                TraitsTraits是一个可以实现实时更新代码，而不需要重新运行程序就可以看到效果的库，效果如下图所示，源码地址在这里。
-
-Traits主要是依赖于Injection的代码注入功能来实现实时更新。它可以是在代码中更新视图对象的属性，也可
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                知识小集成员
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2017/01/01/2017/1/filter-yu-flatmap-guo-lu-nil/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="filter与flatMap过滤nil">
-                            
-                            <span class="card-title">filter与flatMap过滤nil</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                filter与flatMap过滤nil使用高阶函数过滤一个数组中的nil可以有两种方法：filter和flatMap。
-filter方法如下代码所示：
-let array: [Int?] = [1, 2, 3, 5, nil, 9]
-
-le
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                知识小集成员
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2017/01/01/2017/1/static-fang-fa-yu-class-fang-fa-de-qu-bie/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Swift中lazy作惰性求值static方法与class方法的区别">
-                            
-                            <span class="card-title">Swift中lazy作惰性求值static方法与class方法的区别</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                static方法与class方法的区别在Swift中，static和class这两个关键字都可以修饰类的方法，以表明这个方法是一个类方法。不过这两者稍微有一些区别：class修饰的类方法可以被子类重写，而static修饰的类方法则不能。如下
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                知识小集成员
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2017/01/01/2017/1/typealias-fan-xing-bi-bao/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="typealias泛型闭包">
-                            
-                            <span class="card-title">typealias泛型闭包</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                typealias泛型闭包在Swift中我们可以用typealias来为已经存在的类型重新定义名字的,通过命名可以使代码变得更加清晰。当然也可以给闭包类型定义一个新名字，给带有泛型的闭包重新定义名字的方式如下代码所示：
-typealias 
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                知识小集成员
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2017/01/01/2017/1/lu-jing-tian-chong-gui-ze/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="路径填充规则">
-                            
-                            <span class="card-title">路径填充规则</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                路径填充规则Quartz在填充区域时有两套规则：非零缠绕数规则(nonzero windingnumber rule)和偶数-奇数规则(Even-odd)。
-
-非零缠绕数规则：为了确定一个点是否需要绘制，我们从该点开始绘制一条直线穿过绘图的
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                知识小集成员
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4 overflow-policy" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2017/01/01/2017/1/extension-selector/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Extension-Selector">
-                            
-                            <span class="card-title">Extension-Selector</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Extension-Selector在Swift中，我们可以使用#selector设置target-action模式中的action操作，如下代码所示：
-class ViewController: UIViewController {
-
- 
+                                Swift的stride操作在Swift中，如果我们想创建一个一定步长的数组，可以如下代码操作：
+var array: [Double] = []
+for value in 0..&lt;10 {
+    array.append(Doub
                             
                         </div>
                         <div class="publish-info">

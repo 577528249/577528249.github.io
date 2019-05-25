@@ -340,19 +340,19 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/01/01/2017/1/tagged-pointer/">
+                        <a href="/2017/01/01/2017/1/swift3-zhong-de-anyhashable/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Tagged-Pointer">
+                                <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Swift3中的AnyHashable">
                                 
-                                <span class="card-title">Tagged-Pointer</span>
+                                <span class="card-title">Swift3中的AnyHashable</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    Tagged-Pointer苹果在64位ARM架构下，对NSNumber等小对象对象的存储做了优化，即使用Tagged Pointer技术。通过使用这种技术，NSNumber指针变量指向的值不再是单独存储在一块内存中，而是对指针本身做了特殊
+                                    Swift3中的AnyHashable在Swift 3的标准库中添加了AnyHashable这一新类型，其用途是在需要Hash值的集合中，可以混合使用多种Hashable类型。例如，字典的key值，其要求是Hashable类型，如果希望ke
                                 
                             </div>
                             <div class="publish-info">
@@ -389,21 +389,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/01/01/2017/1/traits/">
+                        <a href="/2017/01/01/2017/1/nsrecursivelock-di-gui-suo-de-shi-yong/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Traits">
+                                <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="NSRecursiveLock递归锁的使用">
                                 
-                                <span class="card-title">Traits</span>
+                                <span class="card-title">NSRecursiveLock递归锁的使用</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    TraitsTraits是一个可以实现实时更新代码，而不需要重新运行程序就可以看到效果的库，效果如下图所示，源码地址在这里。
-
-Traits主要是依赖于Injection的代码注入功能来实现实时更新。它可以是在代码中更新视图对象的属性，也可
+                                    NSRecursiveLock递归锁的使用NSRecursiveLock定义的是一个递归锁，这个锁可以被同一线程多次请求，而不会引起死锁。它主要是用在循环或递归操作中。我们先来看下面代码示例：
+let lock = NSLock()
+var
                                 
                             </div>
                             <div class="publish-info">
@@ -440,23 +440,19 @@ Traits主要是依赖于Injection的代码注入功能来实现实时更新。�
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/01/01/2017/1/filter-yu-flatmap-guo-lu-nil/">
+                        <a href="/2017/01/01/2017/1/nsrecursivelock.lock/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="filter与flatMap过滤nil">
+                                <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="NSRecursiveLock.lock(before:)">
                                 
-                                <span class="card-title">filter与flatMap过滤nil</span>
+                                <span class="card-title">NSRecursiveLock.lock(before:)</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    filter与flatMap过滤nil使用高阶函数过滤一个数组中的nil可以有两种方法：filter和flatMap。
-filter方法如下代码所示：
-let array: [Int?] = [1, 2, 3, 5, nil, 9]
-
-le
+                                    NSRecursiveLock.lock(before:)NSRecursiveLock递归锁提供了一个方法lock(before:)，用于在多线程情况下，去尝试请求一个递归锁，然后根据返回的布尔值，来做相应的处理。如下代码所示，是一个正常
                                 
                             </div>
                             <div class="publish-info">
@@ -493,120 +489,19 @@ le
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6 overflow-policy">
                     <div class="card">
-                        <a href="/2017/01/01/2017/1/static-fang-fa-yu-class-fang-fa-de-qu-bie/">
+                        <a href="/2017/01/01/2017/1/injection-dai-ma-zhu-ru/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Swift中lazy作惰性求值static方法与class方法的区别">
+                                <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Injection代码注入">
                                 
-                                <span class="card-title">Swift中lazy作惰性求值static方法与class方法的区别</span>
+                                <span class="card-title">Injection代码注入</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                    static方法与class方法的区别在Swift中，static和class这两个关键字都可以修饰类的方法，以表明这个方法是一个类方法。不过这两者稍微有一些区别：class修饰的类方法可以被子类重写，而static修饰的类方法则不能。如下
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-user fa-fw"></i>
-                                    知识小集成员
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>01</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6 overflow-policy">
-                    <div class="card">
-                        <a href="/2017/01/01/2017/1/typealias-fan-xing-bi-bao/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="typealias泛型闭包">
-                                
-                                <span class="card-title">typealias泛型闭包</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                    typealias泛型闭包在Swift中我们可以用typealias来为已经存在的类型重新定义名字的,通过命名可以使代码变得更加清晰。当然也可以给闭包类型定义一个新名字，给带有泛型的闭包重新定义名字的方式如下代码所示：
-typealias 
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fa fa-user fa-fw"></i>
-                                    知识小集成员
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>01</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6 overflow-policy">
-                    <div class="card">
-                        <a href="/2017/01/01/2017/1/lu-jing-tian-chong-gui-ze/">
-                            <div class="card-image">
-                                
-                                
-                                <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="路径填充规则">
-                                
-                                <span class="card-title">路径填充规则</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                    路径填充规则Quartz在填充区域时有两套规则：非零缠绕数规则(nonzero windingnumber rule)和偶数-奇数规则(Even-odd)。
-
-非零缠绕数规则：为了确定一个点是否需要绘制，我们从该点开始绘制一条直线穿过绘图的
+                                    Injection代码注入Injection是johnno开发的一个Xcode插件，允许我们将代码实现更快注入到模拟器运行的程序或macOS程序。原先可以通过Alcatraz安装到Xcode中，不过现在是独立的App了。可以在这里下载安装。
                                 
                             </div>
                             <div class="publish-info">
@@ -659,6 +554,110 @@ typealias
 class ViewController: UIViewController {
 
  
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-user fa-fw"></i>
+                                    知识小集成员
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>01</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6 overflow-policy">
+                    <div class="card">
+                        <a href="/2017/01/01/2017/1/array.contains-cao-zuo/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Array.contains操作">
+                                
+                                <span class="card-title">Array.contains操作</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                    Array.contains操作Swift中判断一个Array中是否包含某个元素，我们可以使用contains方法，如下代码所示：
+let array = [2, 5, 6, 7, 19, 40]
+
+array.contains(10)  
+                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2017-01-01
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-user fa-fw"></i>
+                                    知识小集成员
+                                    
+                                </span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="cd-timeline-block">
+
+            
+            
+
+            
+            
+
+            
+            <div class="cd-timeline-img day" data-aos="zoom-in-up">
+                <span>01</span>
+            </div>
+            <article class="cd-timeline-content" data-aos="fade-up">
+                <div class="article col s12 m6 overflow-policy">
+                    <div class="card">
+                        <a href="/2017/01/01/2017/1/swift-zhong-lazy-zuo-duo-xing-qiu-zhi/">
+                            <div class="card-image">
+                                
+                                
+                                <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Swift的stride操作">
+                                
+                                <span class="card-title">Swift的stride操作</span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                    Swift的stride操作在Swift中，如果我们想创建一个一定步长的数组，可以如下代码操作：
+var array: [Double] = []
+for value in 0..&lt;10 {
+    array.append(Doub
                                 
                             </div>
                             <div class="publish-info">

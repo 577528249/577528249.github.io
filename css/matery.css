@@ -517,6 +517,7 @@ header .go-back i {
 .dream .text {
     opacity: .6;
     font-size: 1.1rem;
+    text-align: left;
 }
 
 .music-player,

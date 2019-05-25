@@ -553,20 +553,24 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2018/07/01/2018/7/yi-ci-nei-cun-xie-lou-hou-de-si-kao/">
+                <a href="/2018/07/01/2018/7/ios-nei-cun-xie-lu-gong-ju/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="一次内存泄漏后的思考">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="iOS 内存泄露工具">
                         
-                        <span class="card-title">一次内存泄漏后的思考</span>
+                        <span class="card-title">iOS 内存泄露工具</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一次内存泄漏后的思考作者: Lefe_x
-最近项目中遇到一个内存泄漏的问题，SecondViewController 这个类在 pop 后并没有执行 dealloc 方法，也就没有被正常被释放。使用内存泄漏工具排查，并没有发现有循环引用的地
+                            iOS 内存泄露工具作者: Lefe_x
+在日常开发中总会遇到内存泄漏的的问题，而排除内存泄漏一般会依靠以下这些工具：
+
+MLeaksFinder
+
+这个 WeRead 团队开发的一个内存泄漏检测工具，主要用来检测 UIViewContro
                         
                     </div>
                     <div class="publish-info">
@@ -591,20 +595,23 @@
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/07/01/2018/7/yi-ge-guan-yu-gcd-group-shi-yong-de-xiao-tip/">
+                <a href="/2018/07/01/2018/7/rang-ren-huai-yi-ren-sheng-de-yi-duan-dai-ma/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="一个关于 GCD group 使用的小 tip">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="让人怀疑人生的一段代码">
                         
-                        <span class="card-title">一个关于 GCD group 使用的小 tip</span>
+                        <span class="card-title">让人怀疑人生的一段代码</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一个关于 GCD group 使用的小 tip作者: halohily
-在项目中看到一段使用 GCD group 处理的代码，简化下来大概如图1，dispatch_group_notify 的调用放在了 dispatch_group_asy
+                            让人怀疑人生的一段代码作者: 高老师很忙
+大家可以看一下下面两段代码（图1和图2）
+
+
+如果已经显示了一张沙盒里的图片，这个时候对相同路径的文件进行修改和删除，通常我们认为_imageView应该不受到影响，因为图片已经完成渲染，但事实并非
                         
                     </div>
                     <div class="publish-info">
@@ -614,7 +621,7 @@
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            halohily
+                            高老师很忙
                             
                         </span>
                     </div>

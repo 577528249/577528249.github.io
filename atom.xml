@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-25T11:01:08.640Z</updated>
+  <updated>2019-05-25T11:01:26.305Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Xcode 工程设置构建版本号自动递增</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/xcode-gong-cheng-she-zhi-gou-jian-ban-ben-hao-zi-dong-di-zeng/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/xcode-gong-cheng-she-zhi-gou-jian-ban-ben-hao-zi-dong-di-zeng/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:01:26.305Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Xcode-工程设置构建版本号自动递增&quot;&gt;&lt;a href=&quot;#Xcode-工程设置构建版本号自动递增&quot; class=&quot;headerlink&quot; title=&quot;Xcode 工程设置构建版本号自动递增&quot;&gt;&lt;/a&gt;Xcode
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>针对 objc_exception_throw 的实用调试技巧</title>
@@ -39,28 +61,6 @@
   </entry>
   
   <entry>
-    <title>聊聊 iPad 适配</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T11:02:56.362Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;聊聊-iPad-适配&quot;&gt;&lt;a href=&quot;#聊聊-iPad-适配&quot; class=&quot;headerlink&quot; title=&quot;聊聊 iPad 适配&quot;&gt;&lt;/a&gt;聊聊 iPad 适配&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;: &lt;a
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>点击cell不执行-[UITableView didSelectRowAtIndexPath:]方法的几种方式</title>
     <link href="http://yoursite.com/2019/01/01/2019/1/dian-ji-cell-bu-zhi-xing-uitableview-de-didselectrowatindexpath-fang-fa-de-ji-chong-fang-shi/"/>
     <id>http://yoursite.com/2019/01/01/2019/1/dian-ji-cell-bu-zhi-xing-uitableview-de-didselectrowatindexpath-fang-fa-de-ji-chong-fang-shi/</id>
@@ -74,6 +74,28 @@
         
         
           &lt;h2 id=&quot;点击cell不执行-UITableView-didSelectRowAtIndexPath-方法的几种方式&quot;&gt;&lt;a href=&quot;#点击cell不执行-UITableView-didSelectRowAtIndexPath-方法的几种方式&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在 UILabel 中渲染 HTML</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:54:00.951Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;在-UILabel-中渲染-HTML&quot;&gt;&lt;a href=&quot;#在-UILabel-中渲染-HTML&quot; class=&quot;headerlink&quot; title=&quot;在 UILabel 中渲染 HTML&quot;&gt;&lt;/a&gt;在 UILabel 中渲染
         
       
     
@@ -127,28 +149,6 @@
   </entry>
   
   <entry>
-    <title>Xcode更新输入账号密码，账号却不是自己的</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T10:55:08.041Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;Xcode更新输入账号密码，账号却不是自己的&quot;&gt;&lt;a href=&quot;#Xcode更新输入账号密码，账号却不是自己的&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>iOS App 异常捕获相互覆盖问题</title>
     <link href="http://yoursite.com/2019/01/01/2019/1/ios-app-yi-chang-bu-huo-xiang-hu-fu-gai-wen-ti/"/>
     <id>http://yoursite.com/2019/01/01/2019/1/ios-app-yi-chang-bu-huo-xiang-hu-fu-gai-wen-ti/</id>
@@ -171,11 +171,11 @@
   </entry>
   
   <entry>
-    <title>Xcode 工程设置构建版本号自动递增</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/xcode-gong-cheng-she-zhi-gou-jian-ban-ben-hao-zi-dong-di-zeng/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/xcode-gong-cheng-she-zhi-gou-jian-ban-ben-hao-zi-dong-di-zeng/</id>
+    <title>Xcode更新输入账号密码，账号却不是自己的</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/xcode-geng-xin-shu-ru-zhang-hao-mi-ma-zhang-hao-que-bu-shi-zi-ji-de/</id>
     <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T11:01:26.305Z</updated>
+    <updated>2019-05-25T10:55:08.041Z</updated>
     
     <summary type="html">
     
@@ -183,7 +183,29 @@
       
         
         
-          &lt;h2 id=&quot;Xcode-工程设置构建版本号自动递增&quot;&gt;&lt;a href=&quot;#Xcode-工程设置构建版本号自动递增&quot; class=&quot;headerlink&quot; title=&quot;Xcode 工程设置构建版本号自动递增&quot;&gt;&lt;/a&gt;Xcode
+          &lt;h2 id=&quot;Xcode更新输入账号密码，账号却不是自己的&quot;&gt;&lt;a href=&quot;#Xcode更新输入账号密码，账号却不是自己的&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>聊聊 iPad 适配</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/liao-liao-ipad-gua-pei/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:02:56.362Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;聊聊-iPad-适配&quot;&gt;&lt;a href=&quot;#聊聊-iPad-适配&quot; class=&quot;headerlink&quot; title=&quot;聊聊 iPad 适配&quot;&gt;&lt;/a&gt;聊聊 iPad 适配&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;: &lt;a
         
       
     
@@ -281,28 +303,6 @@
   </entry>
   
   <entry>
-    <title>Command Not Found</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/command-not-found/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/command-not-found/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T11:00:48.908Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;Command-Not-Found&quot;&gt;&lt;a href=&quot;#Command-Not-Found&quot; class=&quot;headerlink&quot; title=&quot;Command Not Found&quot;&gt;&lt;/a&gt;Command Not
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Debug Memory Graph检查内存泄漏</title>
     <link href="http://yoursite.com/2019/01/01/2019/1/debug-memory-graph-jian-cha-nei-cun-xie-lou/"/>
     <id>http://yoursite.com/2019/01/01/2019/1/debug-memory-graph-jian-cha-nei-cun-xie-lou/</id>
@@ -316,6 +316,28 @@
         
         
           &lt;h2 id=&quot;Debug-Memory-Graph检查内存泄漏&quot;&gt;&lt;a href=&quot;#Debug-Memory-Graph检查内存泄漏&quot; class=&quot;headerlink&quot; title=&quot;Debug Memory Graph检查内存泄漏&quot;&gt;&lt;/a&gt;Debug Memory
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Command Not Found</title>
+    <link href="http://yoursite.com/2019/01/01/2019/1/command-not-found/"/>
+    <id>http://yoursite.com/2019/01/01/2019/1/command-not-found/</id>
+    <published>2018-12-31T16:00:00.000Z</published>
+    <updated>2019-05-25T11:00:48.908Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Command-Not-Found&quot;&gt;&lt;a href=&quot;#Command-Not-Found&quot; class=&quot;headerlink&quot; title=&quot;Command Not Found&quot;&gt;&lt;/a&gt;Command Not
         
       
     
@@ -347,28 +369,6 @@
   </entry>
   
   <entry>
-    <title>在 UILabel 中渲染 HTML</title>
-    <link href="http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/"/>
-    <id>http://yoursite.com/2019/01/01/2019/1/zai-uilabel-zhong-xuan-ran-html/</id>
-    <published>2018-12-31T16:00:00.000Z</published>
-    <updated>2019-05-25T10:54:00.951Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;在-UILabel-中渲染-HTML&quot;&gt;&lt;a href=&quot;#在-UILabel-中渲染-HTML&quot; class=&quot;headerlink&quot; title=&quot;在 UILabel 中渲染 HTML&quot;&gt;&lt;/a&gt;在 UILabel 中渲染
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>几个第三方框架关于线程锁的封装小技巧</title>
     <link href="http://yoursite.com/2018/09/01/2018/9/ji-ge-di-san-fang-kuang-jia-guan-yu-xian-cheng-suo-de-feng-zhuang-xiao-ji-qiao/"/>
     <id>http://yoursite.com/2018/09/01/2018/9/ji-ge-di-san-fang-kuang-jia-guan-yu-xian-cheng-suo-de-feng-zhuang-xiao-ji-qiao/</id>
@@ -391,6 +391,28 @@
   </entry>
   
   <entry>
+    <title>比较三种网络框架上传图片过程中的不同点？</title>
+    <link href="http://yoursite.com/2018/08/01/2018/8/bi-jiao-san-chong-wang-luo-kuang-jia-shang-chuan-tu-pian-guo-cheng-zhong-de-bu-tong-dian/"/>
+    <id>http://yoursite.com/2018/08/01/2018/8/bi-jiao-san-chong-wang-luo-kuang-jia-shang-chuan-tu-pian-guo-cheng-zhong-de-bu-tong-dian/</id>
+    <published>2018-07-31T16:00:00.000Z</published>
+    <updated>2019-05-25T10:51:52.575Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;比较三种网络框架上传图片过程中的不同点？&quot;&gt;&lt;a href=&quot;#比较三种网络框架上传图片过程中的不同点？&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>给 UIView 添加阴影</title>
     <link href="http://yoursite.com/2018/08/01/2018/8/gei-uiview-tian-jia-yin-ying/"/>
     <id>http://yoursite.com/2018/08/01/2018/8/gei-uiview-tian-jia-yin-ying/</id>
@@ -404,28 +426,6 @@
         
         
           &lt;h2 id=&quot;给-UIView-添加阴影&quot;&gt;&lt;a href=&quot;#给-UIView-添加阴影&quot; class=&quot;headerlink&quot; title=&quot;给 UIView 添加阴影&quot;&gt;&lt;/a&gt;给 UIView 添加阴影&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;: &lt;a
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>再谈数组、集合、字典与 hash、isEqual 方法的关联</title>
-    <link href="http://yoursite.com/2018/08/01/2018/8/zai-tan-shu-zu-ji-he-zi-dian-yu-hash-isequal-fang-fa-de-guan-lian/"/>
-    <id>http://yoursite.com/2018/08/01/2018/8/zai-tan-shu-zu-ji-he-zi-dian-yu-hash-isequal-fang-fa-de-guan-lian/</id>
-    <published>2018-07-31T16:00:00.000Z</published>
-    <updated>2019-05-25T10:50:42.431Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;再谈数组、集合、字典与-hash、isEqual-方法的关联&quot;&gt;&lt;a href=&quot;#再谈数组、集合、字典与-hash、isEqual-方法的关联&quot; class=&quot;headerlink&quot; title=&quot;再谈数组、集合、字典与 hash、isEqual
         
       
     

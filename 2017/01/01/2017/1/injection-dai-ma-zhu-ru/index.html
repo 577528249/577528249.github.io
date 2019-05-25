@@ -557,21 +557,19 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2017/01/01/2017/1/nsrecursivelock-di-gui-suo-de-shi-yong/">
+                <a href="/2017/01/01/2017/1/nsrecursivelock.lock/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="NSRecursiveLock递归锁的使用">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="NSRecursiveLock.lock(before:)">
                         
-                        <span class="card-title">NSRecursiveLock递归锁的使用</span>
+                        <span class="card-title">NSRecursiveLock.lock(before:)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            NSRecursiveLock递归锁的使用NSRecursiveLock定义的是一个递归锁，这个锁可以被同一线程多次请求，而不会引起死锁。它主要是用在循环或递归操作中。我们先来看下面代码示例：
-let lock = NSLock()
-var
+                            NSRecursiveLock.lock(before:)NSRecursiveLock递归锁提供了一个方法lock(before:)，用于在多线程情况下，去尝试请求一个递归锁，然后根据返回的布尔值，来做相应的处理。如下代码所示，是一个正常
                         
                     </div>
                     <div class="publish-info">
@@ -596,19 +594,22 @@ var
                 Next&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2017/01/01/2017/1/nsrecursivelock.lock/">
+                <a href="/2017/01/01/2017/1/extension-selector/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="NSRecursiveLock.lock(before:)">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Extension-Selector">
                         
-                        <span class="card-title">NSRecursiveLock.lock(before:)</span>
+                        <span class="card-title">Extension-Selector</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            NSRecursiveLock.lock(before:)NSRecursiveLock递归锁提供了一个方法lock(before:)，用于在多线程情况下，去尝试请求一个递归锁，然后根据返回的布尔值，来做相应的处理。如下代码所示，是一个正常
+                            Extension-Selector在Swift中，我们可以使用#selector设置target-action模式中的action操作，如下代码所示：
+class ViewController: UIViewController {
+
+ 
                         
                     </div>
                     <div class="publish-info">
